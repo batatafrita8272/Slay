@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Compêndio — Relíquias & Monstros</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1><span class="spark">✦</span> Compêndio</h1>
+      <p>Consulta rápida de relíquias e monstros. Toque em uma ficha para ver os detalhes.</p>
+    </header>
+
+    <nav class="tabs" role="tablist" aria-label="Categorias">
+      <button class="tab" role="tab" data-aba="reliquias" aria-selected="true">
+        🏺 Relíquias <span class="count" data-count="reliquias">0</span>
+      </button>
+      <button class="tab" role="tab" data-aba="monstros" aria-selected="false">
+        🐲 Monstros <span class="count" data-count="monstros">0</span>
+      </button>
+    </nav>
+
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" />
+      </svg>
+      <input id="search" type="text" autocomplete="off" spellcheck="false"
+             placeholder="Buscar…" aria-label="Buscar" />
+    </div>
+
+    <div id="filtros" class="filters" hidden></div>
+
+    <div id="legenda"></div>
+
+    <p id="resumo" class="resumo"></p>
+
+    <main id="list" class="list"></main>
+
+    <footer>Relíquias importadas de <code>relics.md</code> · edite <code>data.js</code> para ajustar</footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
