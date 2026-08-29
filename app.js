@@ -9,7 +9,7 @@
   const { MONSTROS, RELIQUIAS, LEGENDA = [] } = window.COMPENDIO;
 
   const RARIDADE_ORDEM = [
-    "Starter", "Common", "Uncommon", "Rare", "Ancient", "Shop", "Event", "Special"
+    "Inicial", "Comum", "Incomum", "Rara", "Antiga", "Loja", "Evento", "Especial"
   ];
 
   const state = {

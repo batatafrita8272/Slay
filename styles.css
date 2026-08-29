@@ -366,14 +366,14 @@ header p {
   white-space: nowrap;
 }
 
-.badge.rar-Starter  { background: rgba(160,155,173,.16); color: #c3bfce; }
-.badge.rar-Common   { background: rgba(150,160,175,.16); color: #c0c8d4; }
-.badge.rar-Uncommon { background: rgba(94,150,209,.16);  color: #8fb9e6; }
-.badge.rar-Rare     { background: rgba(209,150,74,.20);   color: #e6b45e; }
-.badge.rar-Ancient  { background: rgba(160,110,209,.18);  color: #c39ae6; }
-.badge.rar-Shop     { background: rgba(94,190,150,.16);   color: #8fdcb6; }
-.badge.rar-Event    { background: rgba(209,120,110,.16);  color: #e69a90; }
-.badge.rar-Special  { background: rgba(230,200,120,.22);  color: #f0d68a; }
+.badge.rar-Inicial  { background: rgba(160,155,173,.16); color: #c3bfce; }
+.badge.rar-Comum   { background: rgba(150,160,175,.16); color: #c0c8d4; }
+.badge.rar-Incomum { background: rgba(94,150,209,.16);  color: #8fb9e6; }
+.badge.rar-Rara     { background: rgba(209,150,74,.20);   color: #e6b45e; }
+.badge.rar-Antiga  { background: rgba(160,110,209,.18);  color: #c39ae6; }
+.badge.rar-Loja     { background: rgba(94,190,150,.16);   color: #8fdcb6; }
+.badge.rar-Evento    { background: rgba(209,120,110,.16);  color: #e69a90; }
+.badge.rar-Especial  { background: rgba(230,200,120,.22);  color: #f0d68a; }
 
 .chev {
   width: 18px;

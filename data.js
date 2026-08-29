@@ -27,7 +27,7 @@ const MONSTROS = [
   },
   {
     id: "leaf-slime-s",
-    nome: "Leaf Slime (S)",
+    nome: "Limo de Folha (P)",
     tipo: "Limo",
     ato: "Ato 1",
     icone: "🟢",
@@ -38,11 +38,11 @@ const MONSTROS = [
       { nome: "Gosma (Goop)", descricao: "Embaralha 1 carta de status Slimed no seu monte de descarte." },
       { nome: "Alternância", descricao: "Escolhe Investida ou Gosma a cada turno, nunca repetindo o mesmo movimento duas vezes seguidas." },
     ],
-    descricao: "Limo pequeno do Matagal (Ato 1). Os Slimes vêm em quatro variedades (dois Leaf, dois Twig, cada um em tamanho P e M); este é o Leaf Slime pequeno, um dos inimigos mais fracos do início. 11–15 de vida (12–16 na A8).",
+    descricao: "Limo pequeno do Matagal (Ato 1). Os Slimes vêm em quatro variedades (dois Leaf, dois Twig, cada um em tamanho P e M); este é o Limo de Folha pequeno, um dos inimigos mais fracos do início. 11–15 de vida (12–16 na A8).",
   },
   {
     id: "shrinker-beetle",
-    nome: "Shrinker Beetle",
+    nome: "Besouro Encolhedor",
     tipo: "Inseto",
     ato: "Ato 1",
     icone: "🪲",
@@ -57,7 +57,7 @@ const MONSTROS = [
   },
   {
     id: "fuzzy-wurm-crawler",
-    nome: "Fuzzy Wurm Crawler",
+    nome: "Verme Peludo Rastejante",
     tipo: "Verme",
     ato: "Ato 1",
     icone: "🐛",
@@ -104,7 +104,7 @@ const MONSTROS = [
   },
   {
     id: "eye-with-teeth",
-    nome: "Eye With Teeth",
+    nome: "Olho com Dentes",
     tipo: "Aberração",
     ato: "Ato 1",
     icone: "👁️",
@@ -133,7 +133,7 @@ const MONSTROS = [
   },
   {
     id: "snapping-jaxfruit",
-    nome: "Snapping Jaxfruit",
+    nome: "Jaxfruta Mordedora",
     tipo: "Planta",
     ato: "Ato 1",
     icone: "🥭",
@@ -146,7 +146,7 @@ const MONSTROS = [
   },
   {
     id: "slithering-strangler",
-    nome: "Slithering Strangler",
+    nome: "Estrangulador Rastejante",
     tipo: "Fera",
     ato: "Ato 1",
     icone: "🐍",
@@ -162,7 +162,7 @@ const MONSTROS = [
   },
   {
     id: "vine-shambler",
-    nome: "Vine Shambler",
+    nome: "Trôpego de Trepadeiras",
     tipo: "Planta",
     ato: "Ato 1",
     icone: "🌿",
@@ -178,7 +178,7 @@ const MONSTROS = [
   },
   {
     id: "cubex-construct",
-    nome: "Cubex Construct",
+    nome: "Constructo Cubex",
     tipo: "Construto",
     ato: "Ato 1",
     icone: "🧊",
@@ -194,7 +194,7 @@ const MONSTROS = [
   },
   {
     id: "axe-raider",
-    nome: "Axe Raider",
+    nome: "Saqueador com Machado",
     tipo: "Bandido",
     ato: "Ato 1",
     icone: "🪓",
@@ -209,7 +209,7 @@ const MONSTROS = [
   },
   {
     id: "assassin-raider",
-    nome: "Assassin Raider",
+    nome: "Saqueador Assassino",
     tipo: "Bandido",
     ato: "Ato 1",
     icone: "🗡️",
@@ -222,7 +222,7 @@ const MONSTROS = [
   },
   {
     id: "brute-raider",
-    nome: "Brute Raider",
+    nome: "Saqueador Brutamontes",
     tipo: "Bandido",
     ato: "Ato 1",
     icone: "💪",
@@ -237,7 +237,7 @@ const MONSTROS = [
   },
   {
     id: "crossbow-raider",
-    nome: "Crossbow Raider",
+    nome: "Saqueador com Besta",
     tipo: "Bandido",
     ato: "Ato 1",
     icone: "🏹",
@@ -252,7 +252,7 @@ const MONSTROS = [
   },
   {
     id: "tracker-raider",
-    nome: "Tracker Raider",
+    nome: "Saqueador Rastreador",
     tipo: "Bandido",
     ato: "Ato 1",
     icone: "🐕",
@@ -283,7 +283,7 @@ const MONSTROS = [
   },
   {
     id: "sludge-spinner",
-    nome: "Sludge Spinner",
+    nome: "Fiandeiro de Lodo",
     tipo: "Limo",
     ato: "Ato 1",
     icone: "🛢️",
@@ -298,7 +298,7 @@ const MONSTROS = [
   },
   {
     id: "toadpole",
-    nome: "Toadpole",
+    nome: "Girino-Sapo",
     tipo: "Anfíbio",
     ato: "Ato 1",
     icone: "🐡",
@@ -314,7 +314,7 @@ const MONSTROS = [
   },
   {
     id: "calcified-cultist",
-    nome: "Calcified Cultist",
+    nome: "Cultista Calcificado",
     tipo: "Cultista",
     ato: "Ato 1",
     icone: "🗿",
@@ -329,7 +329,7 @@ const MONSTROS = [
   },
   {
     id: "damp-cultist",
-    nome: "Damp Cultist",
+    nome: "Cultista Úmido",
     tipo: "Cultista",
     ato: "Ato 1",
     icone: "🐦",
@@ -343,7 +343,7 @@ const MONSTROS = [
   },
   {
     id: "living-fog",
-    nome: "Living Fog",
+    nome: "Névoa Viva",
     tipo: "Aberração",
     ato: "Ato 1",
     icone: "☁️",
@@ -359,7 +359,7 @@ const MONSTROS = [
   },
   {
     id: "fossil-stalker",
-    nome: "Fossil Stalker",
+    nome: "Espreitador Fóssil",
     tipo: "Fóssil",
     ato: "Ato 1",
     icone: "🦴",
@@ -375,7 +375,7 @@ const MONSTROS = [
   },
   {
     id: "gremlin-merc",
-    nome: "Gremlin Merc",
+    nome: "Gremlin Mercenário",
     tipo: "Bandido",
     ato: "Ato 1",
     icone: "👺",
@@ -391,7 +391,7 @@ const MONSTROS = [
   },
   {
     id: "haunted-ship",
-    nome: "Haunted Ship",
+    nome: "Navio Assombrado",
     tipo: "Morto-vivo",
     ato: "Ato 1",
     icone: "🚢",
@@ -406,7 +406,7 @@ const MONSTROS = [
   },
   {
     id: "punch-construct",
-    nome: "Punch Construct",
+    nome: "Constructo Soqueador",
     tipo: "Construto",
     ato: "Ato 1",
     icone: "🥊",
@@ -422,7 +422,7 @@ const MONSTROS = [
   },
   {
     id: "sewer-clam",
-    nome: "Sewer Clam",
+    nome: "Molusco de Esgoto",
     tipo: "Molusco",
     ato: "Ato 1",
     icone: "🦪",
@@ -437,7 +437,7 @@ const MONSTROS = [
   },
   {
     id: "two-tailed-rat",
-    nome: "Two-Tailed Rat",
+    nome: "Rato de Duas Caudas",
     tipo: "Fera",
     ato: "Ato 1",
     icone: "🐀",
@@ -453,7 +453,7 @@ const MONSTROS = [
   },
   {
     id: "bowlbug-rock",
-    nome: "Bowlbug (Rock)",
+    nome: "Bowlbug (Pedra)",
     tipo: "Inseto",
     ato: "Ato 2",
     icone: "🥣",
@@ -464,11 +464,11 @@ const MONSTROS = [
       { nome: "Tonto (Dizzy)", descricao: "Fica atordoado e não faz nada." },
       { nome: "Desequilibrado (Imbalanced)", descricao: "Se a Cabeçada for totalmente bloqueada, fica Atordoado e usa Tonto no turno seguinte, depois volta a atacar." },
     ],
-    descricao: "Inseto da Colmeia (Ato 2), o Bowlbug de casco de pedra. Bloquear a Cabeçada por inteiro o desativa por um turno. Vem acompanhado de Bowlbugs operários (Ovo/Seda/Néctar) ou de um Tunneler e um Besouro Sonolento. 45–48 de vida (46–49 na A8).",
+    descricao: "Inseto da Colmeia (Ato 2), o Bowlbug de casco de pedra. Bloquear a Cabeçada por inteiro o desativa por um turno. Vem acompanhado de Bowlbugs operários (Ovo/Seda/Néctar) ou de um Escavador e um Besouro Adormecido. 45–48 de vida (46–49 na A8).",
   },
   {
     id: "exoskeleton",
-    nome: "Exoskeleton",
+    nome: "Exoesqueleto",
     tipo: "Inseto",
     ato: "Ato 2",
     icone: "🦗",
@@ -484,7 +484,7 @@ const MONSTROS = [
   },
   {
     id: "thieving-hopper",
-    nome: "Thieving Hopper",
+    nome: "Saltador Ladrão",
     tipo: "Fera",
     ato: "Ato 2",
     icone: "🎩",
@@ -501,7 +501,7 @@ const MONSTROS = [
   },
   {
     id: "tunneler",
-    nome: "Tunneler",
+    nome: "Escavador",
     tipo: "Verme",
     ato: "Ato 2",
     icone: "🕳️",
@@ -517,7 +517,7 @@ const MONSTROS = [
   },
   {
     id: "chomper",
-    nome: "Chomper",
+    nome: "Mordedor",
     tipo: "Fera",
     ato: "Ato 2",
     icone: "😬",
@@ -532,7 +532,7 @@ const MONSTROS = [
   },
   {
     id: "hunter-killer",
-    nome: "Hunter Killer",
+    nome: "Caçador-Matador",
     tipo: "Aberração",
     ato: "Ato 2",
     icone: "🦟",
@@ -548,7 +548,7 @@ const MONSTROS = [
   },
   {
     id: "louse-progenitor",
-    nome: "Louse Progenitor",
+    nome: "Progenitor dos Piolhos",
     tipo: "Inseto",
     ato: "Ato 2",
     icone: "🪳",
@@ -579,7 +579,7 @@ const MONSTROS = [
   },
   {
     id: "ovicopter",
-    nome: "Ovicopter",
+    nome: "Ovicóptero",
     tipo: "Inseto",
     ato: "Ato 2",
     icone: "🥚",
@@ -595,7 +595,7 @@ const MONSTROS = [
   },
   {
     id: "slumbering-beetle",
-    nome: "Slumbering Beetle",
+    nome: "Besouro Adormecido",
     tipo: "Inseto",
     ato: "Ato 2",
     icone: "😴",
@@ -611,7 +611,7 @@ const MONSTROS = [
   },
   {
     id: "spiny-toad",
-    nome: "Spiny Toad",
+    nome: "Sapo Espinhoso",
     tipo: "Anfíbio",
     ato: "Ato 2",
     icone: "🌵",
@@ -622,11 +622,11 @@ const MONSTROS = [
       { nome: "Explosão de Espinhos (Spike Explosion)", descricao: "23 de dano (25 na A9); perde 5 de Espinhos." },
       { nome: "Lambida (Tongue Lash)", descricao: "17 de dano (19 na A9)." },
     ],
-    descricao: "Anfíbio da Colmeia (Ato 2), a forma adulta do Toadpole. Ciclo fixo: acumula Espinhos e depois os gasta na explosão. 116–119 de vida (121–124 na A8).",
+    descricao: "Anfíbio da Colmeia (Ato 2), a forma adulta do Girino-Sapo. Ciclo fixo: acumula Espinhos e depois os gasta na explosão. 116–119 de vida (121–124 na A8).",
   },
   {
     id: "the-obscura",
-    nome: "The Obscura",
+    nome: "A Obscura",
     tipo: "Aberração",
     ato: "Ato 2",
     icone: "🌀",
@@ -658,7 +658,7 @@ const MONSTROS = [
   },
   {
     id: "devoted-sculptor",
-    nome: "Devoted Sculptor",
+    nome: "Escultor Devoto",
     tipo: "Cultista",
     ato: "Ato 3",
     icone: "⚒️",
@@ -673,7 +673,7 @@ const MONSTROS = [
   },
   {
     id: "fabricator",
-    nome: "Fabricator",
+    nome: "Fabricante",
     tipo: "Construto",
     ato: "Ato 3",
     icone: "🏭",
@@ -688,7 +688,7 @@ const MONSTROS = [
   },
   {
     id: "frog-knight",
-    nome: "Frog Knight",
+    nome: "Cavaleiro Sapo",
     tipo: "Anfíbio",
     ato: "Ato 3",
     icone: "⚔️",
@@ -701,11 +701,11 @@ const MONSTROS = [
       { nome: "Investida do Besouro (Beetle Charge)", descricao: "35 de dano (40 na A9), uma única vez, ao cair abaixo de metade da vida." },
       { nome: "Blindagem (Plating 15)", descricao: "Ganha Bloqueio no fim do seu turno (19 na A8)." },
     ],
-    descricao: "Anfíbio da Glória (Ato 3), montado num Besouro Sonolento menor. Abre com Lambida e cicla Golpear o Mal → Pela Rainha, com uma Investida devastadora ao chegar na metade da vida. 191 de vida (199 na A8).",
+    descricao: "Anfíbio da Glória (Ato 3), montado num Besouro Adormecido menor. Abre com Lambida e cicla Golpear o Mal → Pela Rainha, com uma Investida devastadora ao chegar na metade da vida. 191 de vida (199 na A8).",
   },
   {
     id: "globe-head",
-    nome: "Globe Head",
+    nome: "Cabeça de Globo",
     tipo: "Construto",
     ato: "Ato 3",
     icone: "💡",
@@ -721,7 +721,7 @@ const MONSTROS = [
   },
   {
     id: "living-shield",
-    nome: "Living Shield",
+    nome: "Escudo Vivo",
     tipo: "Objeto",
     ato: "Ato 3",
     icone: "🛡️",
@@ -736,7 +736,7 @@ const MONSTROS = [
   },
   {
     id: "owl-magistrate",
-    nome: "Owl Magistrate",
+    nome: "Magistrada Coruja",
     tipo: "Ave",
     ato: "Ato 3",
     icone: "🦉",
@@ -753,7 +753,7 @@ const MONSTROS = [
   },
   {
     id: "scroll-of-biting",
-    nome: "Scroll of Biting",
+    nome: "Pergaminho da Mordida",
     tipo: "Objeto",
     ato: "Ato 3",
     icone: "📜",
@@ -769,7 +769,7 @@ const MONSTROS = [
   },
   {
     id: "slimed-berserker",
-    nome: "Slimed Berserker",
+    nome: "Berserker Enlodado",
     tipo: "Limo",
     ato: "Ato 3",
     icone: "🟩",
@@ -785,7 +785,7 @@ const MONSTROS = [
   },
   {
     id: "the-lost",
-    nome: "The Lost",
+    nome: "O Perdido",
     tipo: "Morto-vivo",
     ato: "Ato 3",
     icone: "👻",
@@ -800,7 +800,7 @@ const MONSTROS = [
   },
   {
     id: "the-forgotten",
-    nome: "The Forgotten",
+    nome: "O Esquecido",
     tipo: "Morto-vivo",
     ato: "Ato 3",
     icone: "💨",
@@ -824,2684 +824,2684 @@ const MONSTROS = [
 const RELIQUIAS = [
   {
     id: "burning-blood--starter--ironclad",
-    nome: "Burning Blood",
+    nome: "Sangue Ardente",
     categoria: "Ironclad",
     icone: "💎",
-    raridade: "Starter",
-    efeito: "At the end of combat, heal 6 HP.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Inicial",
+    efeito: "No fim do combate, cure 6 de Vida.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "black-blood--starter--ironclad",
-    nome: "Black Blood",
+    nome: "Sangue Negro",
     categoria: "Ironclad",
     icone: "💎",
-    raridade: "Starter",
-    efeito: "At the end of combat, heal 12 HP.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Inicial",
+    efeito: "No fim do combate, cure 12 de Vida.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "ring-of-the-snake--starter--silent",
-    nome: "Ring of the Snake",
+    nome: "Anel da Serpente",
     categoria: "Silent",
     icone: "💎",
-    raridade: "Starter",
-    efeito: "At the start of each combat, draw 2 additional cards.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Inicial",
+    efeito: "No início de cada combate, compre 2 cartas a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "ring-of-the-drake--starter--silent",
-    nome: "Ring of the Drake",
+    nome: "Anel do Dragão",
     categoria: "Silent",
     icone: "💎",
-    raridade: "Starter",
-    efeito: "At the start of your first 3 turns, draw 2 additional cards.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Inicial",
+    efeito: "No início dos seus 3 primeiros turnos, compre 2 cartas a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "divine-right--starter--regent",
-    nome: "Divine Right",
+    nome: "Direito Divino",
     categoria: "Regent",
     icone: "⭐",
-    raridade: "Starter",
-    efeito: "At the start of each combat, gain ⭐ ⭐ ⭐.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Inicial",
+    efeito: "No início de cada combate, ganhe ⭐ ⭐ ⭐.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "divine-destiny--starter--regent",
-    nome: "Divine Destiny",
+    nome: "Destino Divino",
     categoria: "Regent",
     icone: "⭐",
-    raridade: "Starter",
-    efeito: "At the start of each combat, gain ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Inicial",
+    efeito: "No início de cada combate, ganhe ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "bound-phylactery--starter--necrobinder",
-    nome: "Bound Phylactery",
+    nome: "Filactério Atado",
     categoria: "Necrobinder",
     icone: "💎",
-    raridade: "Starter",
-    efeito: "At the start of your turn, Summon 1.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Inicial",
+    efeito: "No início do seu turno, Invoque 1.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "phylactery-unbound--starter--necrobinder",
-    nome: "Phylactery Unbound",
+    nome: "Filactério Solto",
     categoria: "Necrobinder",
     icone: "💎",
-    raridade: "Starter",
-    efeito: "At the start of each combat, Summon 5. At the start of your turn, Summon 2.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Inicial",
+    efeito: "No início de cada combate, Invoque 5. No início do seu turno, Invoque 2.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "cracked-core--starter--defect",
-    nome: "Cracked Core",
+    nome: "Núcleo Rachado",
     categoria: "Defect",
     icone: "⚡",
-    raridade: "Starter",
-    efeito: "At the start of each combat, Channel 1 ⚡ ?",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Inicial",
+    efeito: "No início de cada combate, Canalize 1 ⚡ ?",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "infused-core--starter--defect",
-    nome: "Infused Core",
+    nome: "Núcleo Infundido",
     categoria: "Defect",
     icone: "⚡",
-    raridade: "Starter",
-    efeito: "At the start of each combat, Channel 3 ⚡ ?. ⚡ ? Orbs deal 1 additional damage.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Inicial",
+    efeito: "No início de cada combate, Canalize 3 ⚡ ?. Orbes ⚡ ? causam 1 de dano a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "amethyst-aubergine--common--any",
-    nome: "Amethyst Aubergine",
+    nome: "Berinjela Ametista",
     categoria: "Qualquer",
     icone: "🪙",
-    raridade: "Common",
-    efeito: "Enemies drop 15 additional 🪙 🪙.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Inimigos soltam 15 🪙 🪙 a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "anchor--common--any",
-    nome: "Anchor",
+    nome: "Âncora",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Common",
-    efeito: "Start each combat with 10 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Comece cada combate com 10 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "bag-of-marbles--common--any",
-    nome: "Bag of Marbles",
+    nome: "Saco de Bolinhas de Gude",
     categoria: "Qualquer",
     icone: "💔",
-    raridade: "Common",
-    efeito: "At the start of each combat, apply 1 💔 💔 to ALL enemies.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "No início de cada combate, aplique 1 💔 💔 a TODOS os inimigos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "bag-of-preparation--common--any",
-    nome: "Bag of Preparation",
+    nome: "Saco de Preparação",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "At the start of each combat, draw 2 additional cards.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "No início de cada combate, compre 2 cartas a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "blood-vial--common--any",
-    nome: "Blood Vial",
+    nome: "Frasco de Sangue",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "At the start of each combat, heal 2.",
+    raridade: "Comum",
+    efeito: "No início de cada combate, cure 2.",
     descricao: ""
   },
   {
     id: "book-of-five-rings--common--any",
-    nome: "Book of Five Rings",
+    nome: "Livro dos Cinco Anéis",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "Every 5 cards you add to your Deck, heal 20.",
+    raridade: "Comum",
+    efeito: "A cada 5 cartas que você adiciona ao Baralho, cure 20.",
     descricao: ""
   },
   {
     id: "bronze-scales--common--any",
-    nome: "Bronze Scales",
+    nome: "Escamas de Bronze",
     categoria: "Qualquer",
     icone: "🌵",
-    raridade: "Common",
-    efeito: "Start each combat with 3 🌵 🌵.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Comece cada combate com 3 🌵 🌵.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "centennial-puzzle--common--any",
-    nome: "Centennial Puzzle",
+    nome: "Quebra-Cabeça Centenário",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "The first time you lose HP each combat, draw 3 cards.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Na primeira vez que você perde Vida em cada combate, compre 3 cartas.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "festive-popper--common--any",
-    nome: "Festive Popper",
+    nome: "Espoleta Festiva",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "At the start of each combat, deal 9 damage to ALL enemies.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "No início de cada combate, cause 9 de dano a TODOS os inimigos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "gorget--common--any",
-    nome: "Gorget",
+    nome: "Gorjal",
     categoria: "Qualquer",
     icone: "🪖",
-    raridade: "Common",
-    efeito: "At the start of each combat, gain 4 🪖 🪖.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "No início de cada combate, ganhe 4 🪖 🪖.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "happy-flower--common--any",
-    nome: "Happy Flower",
+    nome: "Flor Feliz",
     categoria: "Qualquer",
     icone: "🔮",
-    raridade: "Common",
-    efeito: "Every 3 turns, gain 🔮.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "A cada 3 turnos, ganhe 🔮.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "juzu-bracelet--common--any",
-    nome: "Juzu Bracelet",
+    nome: "Pulseira Juzu",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "Regular enemy combats are no longer encountered in ? Rooms.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Combates de inimigos comuns não são mais encontrados em Salas ?.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "lantern--common--any",
-    nome: "Lantern",
+    nome: "Lanterna",
     categoria: "Qualquer",
     icone: "🔮",
-    raridade: "Common",
-    efeito: "Start each combat with an additional 🔮.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Comece cada combate com 🔮 a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "meal-ticket--common--any",
-    nome: "Meal Ticket",
+    nome: "Vale-Refeição",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "Whenever you enter a shop room, heal 15.",
+    raridade: "Comum",
+    efeito: "Sempre que você entra numa sala de loja, cure 15.",
     descricao: ""
   },
   {
     id: "oddly-smooth-stone--common--any",
-    nome: "Oddly Smooth Stone",
+    nome: "Pedra Estranhamente Lisa",
     categoria: "Qualquer",
     icone: "🎯",
-    raridade: "Common",
-    efeito: "Start each combat with 1 🎯 🎯.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Comece cada combate com 1 🎯 🎯.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pendulum--common--any",
-    nome: "Pendulum",
+    nome: "Pêndulo",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "Every 3 turns, draw 1 card.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "A cada 3 turnos, compre 1 carta.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "potion-belt--common--any",
-    nome: "Potion Belt",
+    nome: "Cinto de Poções",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "Upon pickup, gain 2 potion slots.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Ao pegar, ganhe 2 espaços de poção.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "red-mask--common--any",
-    nome: "Red Mask",
+    nome: "Máscara Vermelha",
     categoria: "Qualquer",
     icone: "🥱",
-    raridade: "Common",
-    efeito: "At the start of combat, apply 1 🥱 🥱 to ALL enemies.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "No início do combate, aplique 1 🥱 🥱 a TODOS os inimigos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "regal-pillow--common--any",
-    nome: "Regal Pillow",
+    nome: "Travesseiro Real",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "Whenever you Rest, heal an additional 15.",
+    raridade: "Comum",
+    efeito: "Sempre que você Descansa, cure 15 a mais.",
     descricao: ""
   },
   {
     id: "strawberry--common--any",
-    nome: "Strawberry",
+    nome: "Morango",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "Upon pickup, raise your Max HP by 7.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Ao pegar, aumente sua Vida máxima em 7.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "strike-dummy--common--any",
-    nome: "Strike Dummy",
+    nome: "Boneco de Treino",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "Cards containing “Strike” deal 3 additional damage.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Cartas que contêm “Strike” causam 3 de dano a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "vajra--common--any",
     nome: "Vajra",
     categoria: "Qualquer",
     icone: "🗡️",
-    raridade: "Common",
-    efeito: "Start each combat with 1 🗡️ ???",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Comece cada combate com 1 🗡️ ???",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "venerable-tea-set--common--any",
-    nome: "Venerable Tea Set",
+    nome: "Jogo de Chá Venerável",
     categoria: "Qualquer",
     icone: "🔮",
-    raridade: "Common",
-    efeito: "Whenever you enter a Rest Site, start the next combat with an additional 🔮 🔮.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Sempre que você entra num Local de Descanso, comece o próximo combate com 🔮 🔮 a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "war-paint--common--any",
-    nome: "War Paint",
+    nome: "Pintura de Guerra",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "Upon pickup, Upgrade 2 random Skills.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Ao pegar, Aprimore 2 Habilidades aleatórias.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "whetstone--common--any",
-    nome: "Whetstone",
+    nome: "Pedra de Amolar",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Common",
-    efeito: "Upon pickup, Upgrade 2 random Attacks.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Ao pegar, Aprimore 2 Ataques aleatórios.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "red-skull--common--ironclad",
-    nome: "Red Skull",
+    nome: "Caveira Vermelha",
     categoria: "Ironclad",
     icone: "💎",
-    raridade: "Common",
-    efeito: "While your HP is at or below 50%, you have 3 additional ??? ???",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Enquanto sua Vida estiver em 50% ou menos, você tem 3 ??? ??? a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "snecko-skull--common--silent",
-    nome: "Snecko Skull",
+    nome: "Caveira de Snecko",
     categoria: "Silent",
     icone: "🧪",
-    raridade: "Common",
-    efeito: "Whenever you apply 🧪 🧪, apply an additional 1 🧪 🧪.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Sempre que você aplica 🧪 🧪, aplique 1 🧪 🧪 a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "fencing-manual--common--regent",
-    nome: "Fencing Manual",
+    nome: "Manual de Esgrima",
     categoria: "Regent",
     icone: "💎",
-    raridade: "Common",
-    efeito: "At the start of each combat, Forge 10.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "No início de cada combate, Forje 10.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "bone-flute--common--necrobinder",
-    nome: "Bone Flute",
+    nome: "Flauta de Osso",
     categoria: "Necrobinder",
     icone: "🛡️",
-    raridade: "Common",
-    efeito: "Whenever Osty attacks, gain 2 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Sempre que o Osty ataca, ganhe 2 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "data-disk--common--defect",
-    nome: "Data Disk",
+    nome: "Disco de Dados",
     categoria: "Defect",
     icone: "🧐",
-    raridade: "Common",
-    efeito: "Start each combat with 1 🧐 🧐.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Comum",
+    efeito: "Comece cada combate com 1 🧐 🧐.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "akabeko--uncommon--any",
     nome: "Akabeko",
     categoria: "Qualquer",
     icone: "🔥",
-    raridade: "Uncommon",
-    efeito: "At the start of each combat, gain 8 🔥 🔥.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "No início de cada combate, ganhe 8 🔥 🔥.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "bowler-hat--uncommon--any",
-    nome: "Bowler Hat",
+    nome: "Chapéu-Coco",
     categoria: "Qualquer",
     icone: "🪙",
-    raridade: "Uncommon",
-    efeito: "Gain 25% additional 🪙 🪙.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Ganhe 25% mais 🪙 🪙.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "candelabra--uncommon--any",
-    nome: "Candelabra",
+    nome: "Candelabro",
     categoria: "Qualquer",
     icone: "🔮",
-    raridade: "Uncommon",
-    efeito: "At the start of your 2nd turn, gain 🔮 🔮.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "No início do seu 2º turno, ganhe 🔮 🔮.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "eternal-feather--uncommon--any",
-    nome: "Eternal Feather",
+    nome: "Pena Eterna",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "For every 5 cards in your Deck, heal 3 HP whenever you enter a Rest Site.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Para cada 5 cartas no seu Baralho, cure 3 de Vida sempre que você entra num Local de Descanso.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "gremlin-horn--uncommon--any",
-    nome: "Gremlin Horn",
+    nome: "Chifre de Gremlin",
     categoria: "Qualquer",
     icone: "🔮",
-    raridade: "Uncommon",
-    efeito: "Whenever an enemy dies, gain 🔮 and draw 1 card.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Sempre que um inimigo morre, ganhe 🔮 e compre 1 carta.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "horn-cleat--uncommon--any",
-    nome: "Horn Cleat",
+    nome: "Cornamusa",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Uncommon",
-    efeito: "At the start of your 2nd turn, gain 14 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "No início do seu 2º turno, ganhe 14 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "joss-paper--uncommon--any",
-    nome: "Joss Paper",
+    nome: "Papel Joss",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "Every 5 times you Exhaust a card, draw 1 card.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "A cada 5 vezes que você Exaure uma carta, compre 1 carta.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "kusarigama--uncommon--any",
     nome: "Kusarigama",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "Every time you play 3 Attacks in a single turn, deal 6 damage to a random enemy.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Toda vez que você joga 3 Ataques num mesmo turno, cause 6 de dano a um inimigo aleatório.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "lasting-candy--uncommon--any",
-    nome: "Lasting Candy",
+    nome: "Bala Duradoura",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "Every other combat, your card rewards gain an additional Power.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Em combates alternados, suas recompensas de carta ganham um Poder a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "letter-opener--uncommon--any",
-    nome: "Letter Opener",
+    nome: "Abridor de Cartas",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "Every time you play 3 Skills in a single turn, deal 5 damage to ALL enemies.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Toda vez que você joga 3 Habilidades num mesmo turno, cause 5 de dano a TODOS os inimigos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "lucky-fysh--uncommon--any",
-    nome: "Lucky Fysh",
+    nome: "Peixinho da Sorte",
     categoria: "Qualquer",
     icone: "🪙",
-    raridade: "Uncommon",
-    efeito: "Whenever you add a card to your Deck, gain 15 🪙 🪙.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Sempre que você adiciona uma carta ao Baralho, ganhe 15 🪙 🪙.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "mercury-hourglass--uncommon--any",
-    nome: "Mercury Hourglass",
+    nome: "Ampulheta de Mercúrio",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "At the start of your turn, deal 3 damage to ALL enemies.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "No início do seu turno, cause 3 de dano a TODOS os inimigos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "miniature-cannon--uncommon--any",
-    nome: "Miniature Cannon",
+    nome: "Canhão em Miniatura",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "Upgraded Attacks deal 3 additional damage.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Ataques Aprimorados causam 3 de dano a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "nunchaku--uncommon--any",
     nome: "Nunchaku",
     categoria: "Qualquer",
     icone: "🔮",
-    raridade: "Uncommon",
-    efeito: "Every time you play 10 Attacks, gain 🔮.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Toda vez que você joga 10 Ataques, ganhe 🔮.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "orichalcum--uncommon--any",
-    nome: "Orichalcum",
+    nome: "Oricalco",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Uncommon",
-    efeito: "If you end your turn without 🛡️ Block, gain 6 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Se você terminar o turno sem 🛡️ Bloqueio, ganhe 6 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "ornamental-fan--uncommon--any",
-    nome: "Ornamental Fan",
+    nome: "Leque Ornamental",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Uncommon",
-    efeito: "Every time you play 3 Attacks in a single turn, gain 4 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Toda vez que você joga 3 Ataques num mesmo turno, ganhe 4 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pantograph--uncommon--any",
-    nome: "Pantograph",
+    nome: "Pantógrafo",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "At the start of each Boss combat, heal 25.",
+    raridade: "Incomum",
+    efeito: "No início de cada combate de Chefe, cure 25.",
     descricao: ""
   },
   {
     id: "parrying-shield--uncommon--any",
-    nome: "Parrying Shield",
+    nome: "Escudo de Aparo",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Uncommon",
-    efeito: "If you end a turn with at least 10 🛡️ Block, deal 6 damage to a random enemy.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Se você terminar um turno com pelo menos 10 de 🛡️ Bloqueio, cause 6 de dano a um inimigo aleatório.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pear--uncommon--any",
-    nome: "Pear",
+    nome: "Pera",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "Upon pickup, raise your Max HP by 10.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Ao pegar, aumente sua Vida máxima em 10.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pen-nib--uncommon--any",
-    nome: "Pen Nib",
+    nome: "Bico de Pena",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "Every 10th Attack you play deals double damage.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Todo 10º Ataque que você joga causa dano dobrado.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "permafrost--uncommon--any",
     nome: "Permafrost",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Uncommon",
-    efeito: "The first time you play a Power each combat, gain 7 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Na primeira vez que você joga um Poder em cada combate, ganhe 7 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "petrified-toad--uncommon--any",
-    nome: "Petrified Toad",
+    nome: "Sapo Petrificado",
     categoria: "Qualquer",
     icone: "🪨",
-    raridade: "Uncommon",
-    efeito: "At the start of each combat, procure a Potion-🪨 Potion-Shaped Rock.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "No início de cada combate, adquira uma Poção-🪨 Pedra em Forma de Poção.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "planisphere--uncommon--any",
-    nome: "Planisphere",
+    nome: "Planisfério",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "Whenever you enter a ? room, heal 5.",
+    raridade: "Incomum",
+    efeito: "Sempre que você entra numa sala ?, cure 5.",
     descricao: ""
   },
   {
     id: "reptile-trinket--uncommon--any",
-    nome: "Reptile Trinket",
+    nome: "Amuleto Réptil",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "Whenever you use a Potion, gain 3 ??? ??? this turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Sempre que você usa uma Poção, ganhe 3 ??? ??? neste turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "ripple-basin--uncommon--any",
-    nome: "Ripple Basin",
+    nome: "Bacia de Ondulações",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Uncommon",
-    efeito: "If you did not play any Attacks during your turn, gain 4 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Se você não jogou nenhum Ataque durante o seu turno, ganhe 4 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "sparkling-rouge--uncommon--any",
-    nome: "Sparkling Rouge",
+    nome: "Blush Cintilante",
     categoria: "Qualquer",
     icone: "🎯",
-    raridade: "Uncommon",
-    efeito: "At the start of your 3rd turn, gain 1 ??? ??? and 1 🎯 🎯.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "No início do seu 3º turno, ganhe 1 ??? ??? e 1 🎯 🎯.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "stone-cracker--uncommon--any",
-    nome: "Stone Cracker",
+    nome: "Quebra-Pedra",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "At the start of combat, Upgrade 2 random cards in your Draw Pile for the rest of combat.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "No início do combate, Aprimore 2 cartas aleatórias na sua Pilha de Compra pelo resto do combate.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "tiny-mailbox--uncommon--any",
-    nome: "Tiny Mailbox",
+    nome: "Caixa de Correio Minúscula",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "Whenever you Rest, procure 2 random Potion.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Sempre que você Descansa, adquira 2 Poções aleatórias.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "tuning-fork--uncommon--any",
-    nome: "Tuning Fork",
+    nome: "Diapasão",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Uncommon",
-    efeito: "Every time you play 10 Skills, gain 7 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Toda vez que você joga 10 Habilidades, ganhe 7 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "vambrace--uncommon--any",
-    nome: "Vambrace",
+    nome: "Braçadeira",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Uncommon",
-    efeito: "The first time you gain 🛡️ Block from a card each combat, double the amount gained.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Na primeira vez que você ganha 🛡️ Bloqueio de uma carta em cada combate, dobre a quantidade ganha.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "paper-phrog--uncommon--ironclad",
-    nome: "Paper Phrog",
+    nome: "Sapo de Papel",
     categoria: "Ironclad",
     icone: "💔",
-    raridade: "Uncommon",
-    efeito: "Enemies with 💔 💔 take 75% more damage rather than 50%.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Inimigos com 💔 💔 sofrem 75% mais dano em vez de 50%.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "self-forming-clay--uncommon--ironclad",
-    nome: "Self-Forming Clay",
+    nome: "Argila Auto-Modeladora",
     categoria: "Ironclad",
     icone: "🛡️",
-    raridade: "Uncommon",
-    efeito: "Whenever you lose HP in combat, gain 3 🛡️ Block next turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Sempre que você perde Vida em combate, ganhe 3 de 🛡️ Bloqueio no próximo turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "tingsha--uncommon--silent",
     nome: "Tingsha",
     categoria: "Silent",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "Whenever you discard a card during your turn, deal 3 damage to a random enemy for each card discarded.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Sempre que você descarta uma carta durante o seu turno, cause 3 de dano a um inimigo aleatório para cada carta descartada.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "twisted-funnel--uncommon--silent",
-    nome: "Twisted Funnel",
+    nome: "Funil Retorcido",
     categoria: "Silent",
     icone: "🧪",
-    raridade: "Uncommon",
-    efeito: "At the start of each combat, apply 4 🧪 🧪 to ALL enemies.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "No início de cada combate, aplique 4 🧪 🧪 a TODOS os inimigos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "galactic-dust--uncommon--regent",
-    nome: "Galactic Dust",
+    nome: "Poeira Galáctica",
     categoria: "Regent",
     icone: "⭐",
-    raridade: "Uncommon",
-    efeito: "For every 10 ⭐ spent, gain 10 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Para cada 10 de ⭐ gasto, ganhe 10 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "regalite--uncommon--regent",
-    nome: "Regalite",
+    nome: "Regalita",
     categoria: "Regent",
     icone: "🛡️",
-    raridade: "Uncommon",
-    efeito: "The first time you create a card each turn, gain 4 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Na primeira vez que você cria uma carta a cada turno, ganhe 4 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "book-repair-knife--uncommon--necrobinder",
-    nome: "Book Repair Knife",
+    nome: "Faca de Reparo de Livros",
     categoria: "Necrobinder",
     icone: "🪦",
-    raridade: "Uncommon",
-    efeito: "Whenever a non-Minion enemy dies to 🪦 🪦, heal 3.",
+    raridade: "Incomum",
+    efeito: "Sempre que um inimigo que não é Lacaio morre por 🪦 🪦, cure 3.",
     descricao: ""
   },
   {
     id: "funerary-mask--uncommon--necrobinder",
-    nome: "Funerary Mask",
+    nome: "Máscara Funerária",
     categoria: "Necrobinder",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "At the start of each combat, add 3 CardColorless Skill Token Souls into your Draw Pile.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "No início de cada combate, adicione 3 CardColorless Skill Token Souls na sua Pilha de Compra.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "plated-cables--uncommon--defect",
-    nome: "Plated Cables",
+    nome: "Cabos Blindados",
     categoria: "Defect",
     icone: "💎",
-    raridade: "Uncommon",
-    efeito: "Your rightmost Orb triggers its passive an additional time.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "Seu Orbe mais à direita ativa o efeito passivo dele uma vez a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "symbiotic-virus--uncommon--defect",
-    nome: "Symbiotic Virus",
+    nome: "Vírus Simbiótico",
     categoria: "Defect",
     icone: "😈",
-    raridade: "Uncommon",
-    efeito: "At the start of each combat, Channel 1 DarkOrb 😈.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Incomum",
+    efeito: "No início de cada combate, Canalize 1 DarkOrb 😈.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "art-of-war--rare--any",
-    nome: "Art of War",
+    nome: "A Arte da Guerra",
     categoria: "Qualquer",
     icone: "🔮",
-    raridade: "Rare",
-    efeito: "If you do not play any Attacks during your turn, gain an additional 🔮 next turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Se você não jogar nenhum Ataque durante o seu turno, ganhe 🔮 a mais no próximo turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "beating-remnant--rare--any",
-    nome: "Beating Remnant",
+    nome: "Remanescente Pulsante",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "You cannot lose more than 20 HP in a single turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Você não pode perder mais de 20 de Vida num mesmo turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "bellows--rare--any",
-    nome: "Bellows",
+    nome: "Fole",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "The first Hand you draw each combat is Upgraded.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "A primeira Mão que você compra em cada combate vem Aprimorada.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "captain-s-wheel--rare--any",
-    nome: "Captain's Wheel",
+    nome: "Timão do Capitão",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Rare",
-    efeito: "At the start of your 3rd turn, gain 18 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "No início do seu 3º turno, ganhe 18 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "chandelier--rare--any",
-    nome: "Chandelier",
+    nome: "Lustre",
     categoria: "Qualquer",
     icone: "🔮",
-    raridade: "Rare",
-    efeito: "At the start of your 3rd turn, gain 🔮 🔮 🔮.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "No início do seu 3º turno, ganhe 🔮 🔮 🔮.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "cloak-clasp--rare--any",
-    nome: "Cloak Clasp",
+    nome: "Broche de Capa",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Rare",
-    efeito: "At the end of your turn, gain 1 🛡️ Block for each card in your Hand.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "No fim do seu turno, ganhe 1 de 🛡️ Bloqueio para cada carta na sua Mão.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "frozen-egg--rare--any",
-    nome: "Frozen Egg",
+    nome: "Ovo Congelado",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Whenever you add a Power into your Deck, Upgrade it.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Sempre que você adiciona um Poder ao Baralho, Aprimore-o.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "gambling-chip--rare--any",
-    nome: "Gambling Chip",
+    nome: "Ficha de Aposta",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "At the start of each combat, discard any number of cards then draw that many.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "No início de cada combate, descarte quantas cartas quiser e compre a mesma quantidade.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "game-piece--rare--any",
-    nome: "Game Piece",
+    nome: "Peça de Jogo",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Whenever you play a Power, draw 1 card.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Sempre que você joga um Poder, compre 1 carta.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "girya--rare--any",
     nome: "Girya",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "You can now gain ??? ??? at Rest Site. (3 times max).",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Você agora pode ganhar ??? ??? em Local de Descanso. (máx. 3 vezes).",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "ice-cream--rare--any",
-    nome: "Ice Cream",
+    nome: "Sorvete",
     categoria: "Qualquer",
     icone: "🔮",
-    raridade: "Rare",
-    efeito: "🔮 Energy is now conserved between turns.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "🔮 A Energia agora é conservada entre os turnos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "intimidating-helmet--rare--any",
-    nome: "Intimidating Helmet",
+    nome: "Elmo Intimidador",
     categoria: "Qualquer",
     icone: "🔮",
-    raridade: "Rare",
-    efeito: "Whenever you play a card that costs 🔮 🔮 or more, gain 4 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Sempre que você joga uma carta que custa 🔮 🔮 ou mais, ganhe 4 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "kunai--rare--any",
     nome: "Kunai",
     categoria: "Qualquer",
     icone: "🎯",
-    raridade: "Rare",
-    efeito: "Every time you play 3 Attacks in a single turn, gain 1 🎯 🎯.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Toda vez que você joga 3 Ataques num mesmo turno, ganhe 1 🎯 🎯.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "lizard-tail--rare--any",
-    nome: "Lizard Tail",
+    nome: "Cauda de Lagarto",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "When your HP would be reduced to 0, heal to 50% of your Max HP instead (works once).",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Quando sua Vida seria reduzida a 0, cure até 50% da sua Vida máxima em vez disso (funciona uma vez).",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "mango--rare--any",
-    nome: "Mango",
+    nome: "Manga",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Upon pickup, raise your Max HP by 14.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Ao pegar, aumente sua Vida máxima em 14.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "meat-on-the-bone--rare--any",
-    nome: "Meat on the Bone",
+    nome: "Carne no Osso",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "If your HP is at or below 50% at the end of combat, heal 12.",
+    raridade: "Rara",
+    efeito: "Se sua Vida estiver em 50% ou menos no fim do combate, cure 12.",
     descricao: ""
   },
   {
     id: "molten-egg--rare--any",
-    nome: "Molten Egg",
+    nome: "Ovo Fundido",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Whenever you add an Attack card to your Deck, Upgrade it.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Sempre que você adiciona uma carta de Ataque ao Baralho, Aprimore-a.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "mummified-hand--rare--any",
-    nome: "Mummified Hand",
+    nome: "Mão Mumificada",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Whenever you play a Power, a random card in your Hand is free to play that turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Sempre que você joga um Poder, uma carta aleatória da sua Mão fica de graça para jogar naquele turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "old-coin--rare--any",
-    nome: "Old Coin",
+    nome: "Moeda Antiga",
     categoria: "Qualquer",
     icone: "🪙",
-    raridade: "Rare",
-    efeito: "Upon pickup, gain 300 🪙 🪙.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Ao pegar, ganhe 300 🪙 🪙.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pocketwatch--rare--any",
-    nome: "Pocketwatch",
+    nome: "Relógio de Bolso",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Whenever you play 3 or fewer cards during your turn, draw 3 additional cards at the start of your next turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Sempre que você joga 3 cartas ou menos durante o seu turno, compre 3 cartas a mais no início do seu próximo turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "prayer-wheel--rare--any",
-    nome: "Prayer Wheel",
+    nome: "Roda de Oração",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Normal enemies drop an additional card reward.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Inimigos comuns soltam uma recompensa de carta a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "rainbow-ring--rare--any",
-    nome: "Rainbow Ring",
+    nome: "Anel Arco-Íris",
     categoria: "Qualquer",
     icone: "🎯",
-    raridade: "Rare",
-    efeito: "The first time you play an Attack, Skill, and Power each turn, gain 1 ??? ??? and 1 🎯 🎯.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Na primeira vez que você joga um Ataque, uma Habilidade e um Poder a cada turno, ganhe 1 ??? ??? e 1 🎯 🎯.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "razor-tooth--rare--any",
-    nome: "Razor Tooth",
+    nome: "Dente Navalha",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Every time you play an Attack or Skill, Upgrade it for the remainder of combat.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Toda vez que você joga um Ataque ou Habilidade, Aprimore-o pelo resto do combate.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "shovel--rare--any",
-    nome: "Shovel",
+    nome: "Pá",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "You can now dig at Rest Site to obtain a random Relic.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Você agora pode escavar em Local de Descanso para obter uma Relíquia aleatória.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "shuriken--rare--any",
     nome: "Shuriken",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Every time you play 3 Attacks in a single turn, gain 1 ??? ???",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Toda vez que você joga 3 Ataques num mesmo turno, ganhe 1 ??? ???",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "stone-calendar--rare--any",
-    nome: "Stone Calendar",
+    nome: "Calendário de Pedra",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "At the end of turn 7, deal 52 damage to ALL enemies.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "No fim do turno 7, cause 52 de dano a TODOS os inimigos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "sturdy-clamp--rare--any",
-    nome: "Sturdy Clamp",
+    nome: "Grampo Resistente",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Rare",
-    efeito: "Up to 10 🛡️ Block persists across turns.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Até 10 de 🛡️ Bloqueio persiste entre os turnos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "the-courier--rare--any",
-    nome: "The Courier",
+    nome: "O Mensageiro",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "The merchant no longer runs out of cards, relics, or Potion and his prices are reduced by 20%.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "O mercador nunca mais fica sem cartas, relíquias ou Poção e os preços dele ficam 20% menores.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "toxic-egg--rare--any",
-    nome: "Toxic Egg",
+    nome: "Ovo Tóxico",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Whenever you add a Skill into your Deck, Upgrade it.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Sempre que você adiciona uma Habilidade ao Baralho, Aprimore-a.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "tungsten-rod--rare--any",
-    nome: "Tungsten Rod",
+    nome: "Barra de Tungstênio",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Whenever you would lose HP, lose 1 less.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Sempre que você fosse perder Vida, perca 1 a menos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "unceasing-top--rare--any",
-    nome: "Unceasing Top",
+    nome: "Pião Incessante",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Whenever you have no cards in Hand during your turn, draw a card.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Sempre que você fica sem cartas na Mão durante o seu turno, compre uma carta.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "unsettling-lamp--rare--any",
-    nome: "Unsettling Lamp",
+    nome: "Lâmpada Perturbadora",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Each combat, the first time you play a card that Debuffs an enemy, double its effect.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Em cada combate, na primeira vez que você joga uma carta que aplica Debuff em um inimigo, dobre o efeito dela.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "vexing-puzzlebox--rare--any",
-    nome: "Vexing Puzzlebox",
+    nome: "Caixa-Quebra-Cabeça Irritante",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "At the start of each combat, add a random card into your Hand. It's free to play this turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "No início de cada combate, adicione uma carta aleatória à sua Mão. É de graça para jogá-la neste turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "white-beast-statue--rare--any",
-    nome: "White Beast Statue",
+    nome: "Estátua da Besta Branca",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Potion always appear in combat rewards.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Poções sempre aparecem nas recompensas de combate.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "white-star--rare--any",
-    nome: "White Star",
+    nome: "Estrela Branca",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Elites drop an additional Rare card reward.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Elites soltam uma recompensa de carta Rara a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "charon-s-ashes--rare--ironclad",
-    nome: "Charon's Ashes",
+    nome: "Cinzas de Caronte",
     categoria: "Ironclad",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "Whenever you Exhaust a card, deal 3 damage to ALL enemies.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Sempre que você Exaure uma carta, cause 3 de dano a TODOS os inimigos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "demon-tongue--rare--ironclad",
-    nome: "Demon Tongue",
+    nome: "Língua de Demônio",
     categoria: "Ironclad",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "The first time you lose HP on your turn, heal HP equal to the amount lost.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Na primeira vez que você perde Vida no seu turno, cure Vida igual à quantidade perdida.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "ruined-helmet--rare--ironclad",
-    nome: "Ruined Helmet",
+    nome: "Elmo Arruinado",
     categoria: "Ironclad",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "The first time you gain ??? ??? each combat, double the amount gained.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Na primeira vez que você ganha ??? ??? em cada combate, dobre a quantidade ganha.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "helical-dart--rare--silent",
-    nome: "Helical Dart",
+    nome: "Dardo Helicoidal",
     categoria: "Silent",
     icone: "🎯",
-    raridade: "Rare",
-    efeito: "Whenever you play a Shiv, gain 1 🎯 🎯 this turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Sempre que você joga um Shiv, ganhe 1 🎯 🎯 neste turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "paper-krane--rare--silent",
-    nome: "Paper Krane",
+    nome: "Grou de Papel",
     categoria: "Silent",
     icone: "🥱",
-    raridade: "Rare",
-    efeito: "Enemies with 🥱 🥱 deal 40% less damage to you rather than 25%.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Inimigos com 🥱 🥱 causam 40% menos dano a você em vez de 25%.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "tough-bandages--rare--silent",
-    nome: "Tough Bandages",
+    nome: "Bandagens Resistentes",
     categoria: "Silent",
     icone: "🛡️",
-    raridade: "Rare",
-    efeito: "Whenever you discard a card during your turn, gain 3 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Sempre que você descarta uma carta durante o seu turno, ganhe 3 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "lunar-pastry--rare--regent",
-    nome: "Lunar Pastry",
+    nome: "Doce Lunar",
     categoria: "Regent",
     icone: "⭐",
-    raridade: "Rare",
-    efeito: "At the end of your turn, gain ⭐.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "No fim do seu turno, ganhe ⭐.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "mini-regent--rare--regent",
     nome: "Mini Regent",
     categoria: "Regent",
     icone: "⭐",
-    raridade: "Rare",
-    efeito: "The first time you spend ⭐ each turn, gain 1 ??? ???",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Na primeira vez que você gasta ⭐ a cada turno, ganhe 1 ??? ???",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "orange-dough--rare--regent",
-    nome: "Orange Dough",
+    nome: "Massa de Laranja",
     categoria: "Regent",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "At the start of each combat, add 2 random Colorless cards into your Hand.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "No início de cada combate, adicione 2 cartas Incolores aleatórias à sua Mão.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "big-hat--rare--necrobinder",
-    nome: "Big Hat",
+    nome: "Chapéu Grande",
     categoria: "Necrobinder",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "At the start of each combat, add 2 random Ethereal cards into your Hand.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "No início de cada combate, adicione 2 cartas Etéreas aleatórias à sua Mão.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "bookmark--rare--necrobinder",
-    nome: "Bookmark",
+    nome: "Marcador de Página",
     categoria: "Necrobinder",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "At the end of each turn, lower the cost of a random Retained card by 1 until played.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "No fim de cada turno, reduza em 1 o custo de uma carta Retida aleatória até ela ser jogada.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "ivory-tile--rare--necrobinder",
-    nome: "Ivory Tile",
+    nome: "Peça de Marfim",
     categoria: "Necrobinder",
     icone: "🌸",
-    raridade: "Rare",
-    efeito: "Whenever you play a card that costs 🌸 🌸 🌸 or more, gain 🌸.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Sempre que você joga uma carta que custa 🌸 🌸 🌸 ou mais, ganhe 🌸.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "emotion-chip--rare--defect",
-    nome: "Emotion Chip",
+    nome: "Chip de Emoção",
     categoria: "Defect",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "If you lost HP during the previous turn, trigger the passive ability of all Orbs at the start of your turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Se você perdeu Vida no turno anterior, ative a habilidade passiva de todos os Orbes no início do seu turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "metronome--rare--defect",
-    nome: "Metronome",
+    nome: "Metrônomo",
     categoria: "Defect",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "The first time you Channel 7 Orbs each combat, deal 30 damage to ALL enemies.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "Na primeira vez que você Canaliza 7 Orbes em cada combate, cause 30 de dano a TODOS os inimigos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "power-cell--rare--defect",
-    nome: "Power Cell",
+    nome: "Célula de Energia",
     categoria: "Defect",
     icone: "💎",
-    raridade: "Rare",
-    efeito: "At the start of each combat, add 2 zero-cost cards from your Draw Pile into your Hand.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Rara",
+    efeito: "No início de cada combate, adicione 2 cartas de custo zero da sua Pilha de Compra à sua Mão.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "arcane-scroll--ancient--neow",
-    nome: "Arcane Scroll",
+    nome: "Pergaminho Arcano",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, obtain a random Rare Card to add to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, obtenha uma Carta Rara aleatória para adicionar ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "booming-conch--ancient--neow",
-    nome: "Booming Conch",
+    nome: "Concha Estrondosa",
     categoria: "Neow",
     icone: "🔮",
-    raridade: "Ancient",
-    efeito: "At the start of Elite combats, draw 2 additional cards and gain 🔮.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "No início de combates de Elite, compre 2 cartas a mais e ganhe 🔮.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "cursed-pearl--ancient--neow",
-    nome: "Cursed Pearl",
+    nome: "Pérola Amaldiçoada",
     categoria: "Neow",
     icone: "🤑",
-    raridade: "Ancient",
-    efeito: "Upon pickup, receive CardCurse 🤑. Gain 333 🪙.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, receba a Maldição 🤑. Ganhe 333 🪙.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "rod--ancient--neow",
-    nome: "Rod",
+    nome: "Vara",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, add 1 CardQuest ?? to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, adicione 1 CardQuest ?? ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "fishing-rod--ancient--neow",
-    nome: "Fishing Rod",
+    nome: "Vara de Pesca",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Every 3 normal combats, Upgrade a random card in your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "A cada 3 combates comuns, Aprimore uma carta aleatória do seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "golden-pearl--ancient--neow",
-    nome: "Golden Pearl",
+    nome: "Pérola Dourada",
     categoria: "Neow",
     icone: "🪙",
-    raridade: "Ancient",
-    efeito: "Upon pickup, gain 150 🪙 🪙.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, ganhe 150 🪙 🪙.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "hefty-tablet--ancient--neow",
-    nome: "Hefty Tablet",
+    nome: "Tábua Pesada",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Choose 1 of 3 Rare cards to add to your Deck. Add 1 CardCurse ?? to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Escolha 1 de 3 cartas Raras para adicionar ao seu Baralho. Adicione 1 Maldição ?? ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "kaleidoscope--ancient--neow",
-    nome: "Kaleidoscope",
+    nome: "Caleidoscópio",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, obtain 2 card rewards from other characters.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, obtenha 2 recompensas de carta de outros personagens.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "large-capsule--ancient--neow",
-    nome: "Large Capsule",
+    nome: "Cápsula Grande",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, obtain 2 random Relics. Add an additional Strike and Defend to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, obtenha 2 Relíquias aleatórias. Adicione um Strike e um Defend a mais ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "lava-rock--ancient--neow",
-    nome: "Lava Rock",
+    nome: "Rocha de Lava",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "The Act 1 Boss drops 2 Relics.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "O Chefe do Ato 1 solta 2 Relíquias.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "lead-paperweight--ancient--neow",
-    nome: "Lead Paperweight",
+    nome: "Peso de Papel de Chumbo",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, choose 1 of 2 Colorless cards to add to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, escolha 1 de 2 cartas Incolores para adicionar ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "leafy-poultice--ancient--neow",
-    nome: "Leafy Poultice",
+    nome: "Cataplasma de Folhas",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Transform 1 of your Strikes and 1 of your Defends and lose 12 Max.",
+    raridade: "Antiga",
+    efeito: "Ao pegar, Transforme 1 dos seus Strikes e 1 dos seus Defends e perca 12 de Vida máxima.",
     descricao: ""
   },
   {
     id: "lost-coffer--ancient--neow",
-    nome: "Lost Coffer",
+    nome: "Cofre Perdido",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, gain 1 card reward and procure 1 random Potion.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, ganhe 1 recompensa de carta e adquira 1 Poção aleatória.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "massive-scroll--ancient--neow",
-    nome: "Massive Scroll",
+    nome: "Pergaminho Enorme",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, choose 1 of 3 Multiplayer Cards to add to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, escolha 1 de 3 Cartas Multijogador para adicionar ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "neow-s-bones--ancient--neow",
-    nome: "Neow's Bones",
+    nome: "Ossos de Neow",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, gain 2 random Neow Relics. Add 1 random Curse to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, ganhe 2 Relíquias de Neow aleatórias. Adicione 1 Maldição aleatória ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "neow-s-sacrifice--ancient--neow",
-    nome: "Neow's Sacrifice",
+    nome: "Sacrifício de Neow",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, procure 1 Ambergris Ambergris and 1 CardCurse Guilty to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, adquira 1 Ambergris Ambergris e 1 Maldição Guilty para o seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "neow-s-talisman--ancient--neow",
-    nome: "Neow's Talisman",
+    nome: "Talismã de Neow",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Upgrade 1 of your Strikes and 1 of your Defends.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, Aprimore 1 dos seus Strikes e 1 dos seus Defends.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "neow-s-torment--ancient--neow",
-    nome: "Neow's Torment",
+    nome: "Tormento de Neow",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, add 1 CardColorless Attack Ancient Neow's Fury to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, adicione 1 CardColorless Attack Ancient Neow's Fury ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "new-leaf--ancient--neow",
-    nome: "New Leaf",
+    nome: "Folha Nova",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Transform 1 card.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, Transforme 1 carta.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "nutritious-oyster--ancient--neow",
-    nome: "Nutritious Oyster",
+    nome: "Ostra Nutritiva",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, raise your Max HP by 11.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, aumente sua Vida máxima em 11.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "phial-holster--ancient--neow",
-    nome: "Phial Holster",
+    nome: "Coldre de Frascos",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, gain 1 potion slot and procure 2 random Potion.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, ganhe 1 espaço de poção e adquira 2 Poções aleatórias.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pomander--ancient--neow",
-    nome: "Pomander",
+    nome: "Pomo Aromático",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Upgrade a card.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, Aprimore uma carta.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "precarious-shears--ancient--neow",
-    nome: "Precarious Shears",
+    nome: "Tesoura Precária",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, remove 2 cards from your Deck and take 16 damage.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, remova 2 cartas do seu Baralho e sofra 16 de dano.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "precise-scissors--ancient--neow",
-    nome: "Precise Scissors",
+    nome: "Tesoura Precisa",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, remove 1 card from your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, remova 1 carta do seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "scroll-boxes--ancient--neow",
-    nome: "Scroll Boxes",
+    nome: "Caixas de Pergaminhos",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Choose 1 of 2 packs of cards to add to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Escolha 1 de 2 pacotes de cartas para adicionar ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "silken-tress--ancient--neow",
-    nome: "Silken Tress",
+    nome: "Mecha de Seda",
     categoria: "Neow",
     icone: "🪙",
-    raridade: "Ancient",
-    efeito: "Upon pickup, lose all 🪙. Enchant all cards in your first card reward with Enchant Glam Glam.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, perca todo o 🪙. Encante todas as cartas da sua primeira recompensa de carta com Enchant Glam Glam.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "silver-crucible--ancient--neow",
-    nome: "Silver Crucible",
+    nome: "Cadinho de Prata",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "The first 3 card rewards you see are Upgraded. The first Treasure Chest you open is empty.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "As 3 primeiras recompensas de carta que você vê vêm Aprimoradas. O primeiro Baú do Tesouro que você abre está vazio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "small-capsule--ancient--neow",
-    nome: "Small Capsule",
+    nome: "Cápsula Pequena",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, obtain a random Relic.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, obtenha uma Relíquia aleatória.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "stone-humidifier--ancient--neow",
-    nome: "Stone Humidifier",
+    nome: "Umidificador de Pedra",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Whenever you Rest at a Rest Site, raise your Max HP by 5.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Sempre que você Descansa num Local de Descanso, aumente sua Vida máxima em 5.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "winged-boots--ancient--neow",
-    nome: "Winged Boots",
+    nome: "Botas Aladas",
     categoria: "Neow",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "You may ignore paths when choosing the next rooms to travel to 3 times.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Você pode ignorar os caminhos ao escolher as próximas salas 3 vezes.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "alchemical-coffer--ancient--orobas",
-    nome: "Alchemical Coffer",
+    nome: "Cofre Alquímico",
     categoria: "Orobas",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, gain 4 Potion slots filled with random Potion.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, ganhe 4 espaços de poção cheios com Poções aleatórias.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "archaic-tooth--ancient--orobas",
-    nome: "Archaic Tooth",
+    nome: "Dente Arcaico",
     categoria: "Orobas",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Transform a starter card into an ancient version.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, Transforme uma carta inicial numa versão antiga.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "driftwood--ancient--orobas",
-    nome: "Driftwood",
+    nome: "Madeira à Deriva",
     categoria: "Orobas",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "You may reroll each card reward once.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Você pode re-rolar cada recompensa de carta uma vez.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "electric-shrymp--ancient--orobas",
-    nome: "Electric Shrymp",
+    nome: "Camarão Elétrico",
     categoria: "Orobas",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Enchant a Skill with Enchant Imbued Imbued.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, Encante uma Habilidade com Enchant Imbued Imbued.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "glass-eye--ancient--orobas",
-    nome: "Glass Eye",
+    nome: "Olho de Vidro",
     categoria: "Orobas",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, obtain 2 Common cards, 2 Uncommon cards, and 1 Rare card.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, obtenha 2 cartas Comuns, 2 Incomuns e 1 Rara.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "prismatic-gem--ancient--orobas",
-    nome: "Prismatic Gem",
+    nome: "Gema Prismática",
     categoria: "Orobas",
     icone: "🔮",
-    raridade: "Ancient",
-    efeito: "Gain 🔮 at the start of each turn. Card rewards now contain cards from other colors.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ganhe 🔮 no início de cada turno. As recompensas de carta agora contêm cartas de outras cores.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "radiant-pearl--ancient--orobas",
-    nome: "Radiant Pearl",
+    nome: "Pérola Radiante",
     categoria: "Orobas",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "At the start of each combat, add 1 CardColorless Skill Token Luminesce into your Hand.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "No início de cada combate, adicione 1 CardColorless Skill Token Luminesce à sua Mão.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "sand-castle--ancient--orobas",
-    nome: "Sand Castle",
+    nome: "Castelo de Areia",
     categoria: "Orobas",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Upgrade 6 random cards.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, Aprimore 6 cartas aleatórias.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "sea-glass--ancient--orobas",
-    nome: "Sea Glass",
+    nome: "Vidro do Mar",
     categoria: "Orobas",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "See 15 cards from another character. Choose any number of them to add to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Veja 15 cartas de outro personagem. Escolha quantas quiser para adicionar ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "touch-of-orobas--ancient--orobas",
-    nome: "Touch of Orobas",
+    nome: "Toque de Orobas",
     categoria: "Orobas",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, replace your starter Relic with an Ancient version.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, substitua sua Relíquia inicial por uma versão Antiga.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pael-s-blood--ancient--pael",
-    nome: "Pael's Blood",
+    nome: "Sangue de Pael",
     categoria: "Pael",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "At the start of your turn, draw 1 additional card.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "No início do seu turno, compre 1 carta a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pael-s-claw--ancient--pael",
-    nome: "Pael's Claw",
+    nome: "Garra de Pael",
     categoria: "Pael",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Enchant all Defends with Enchant Goopy Goopy.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, Encante todos os Defends com Enchant Goopy Goopy.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pael-s-eye--ancient--pael",
-    nome: "Pael's Eye",
+    nome: "Olho de Pael",
     categoria: "Pael",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "The first time each combat you end your turn without playing cards, Exhaust your Hand, and take an extra turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Na primeira vez em cada combate que você termina o turno sem jogar cartas, Exaure sua Mão e ganha um turno extra.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pael-s-flesh--ancient--pael",
-    nome: "Pael's Flesh",
+    nome: "Carne de Pael",
     categoria: "Pael",
     icone: "🔮",
-    raridade: "Ancient",
-    efeito: "Gain an additional 🔮 at the start of your 3rd turn, and every turn after that.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ganhe 🔮 a mais no início do seu 3º turno, e em todo turno depois disso.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pael-s-growth--ancient--pael",
-    nome: "Pael's Growth",
+    nome: "Crescimento de Pael",
     categoria: "Pael",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Enchant a card with Enchant Clone Clone.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, Encante uma carta com Enchant Clone Clone.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pael-s-horn--ancient--pael",
-    nome: "Pael's Horn",
+    nome: "Chifre de Pael",
     categoria: "Pael",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, add 2 CardColorless Skill Ancient Relax to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, adicione 2 CardColorless Skill Ancient Relax ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pael-s-legion--ancient--pael",
-    nome: "Pael's Legion",
+    nome: "Legião de Pael",
     categoria: "Pael",
     icone: "🛡️",
-    raridade: "Ancient",
-    efeito: "Doubles 🛡️ Block gained from a card, then goes to sleep for 2 turns.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Dobra o 🛡️ Bloqueio ganho de uma carta, e então adormece por 2 turnos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pael-s-tears--ancient--pael",
-    nome: "Pael's Tears",
+    nome: "Lágrimas de Pael",
     categoria: "Pael",
     icone: "🔮",
-    raridade: "Ancient",
-    efeito: "If you end your turn with unspent 🔮, gain an additional 🔮 🔮 next turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Se você terminar o turno com 🔮 não gasto, ganhe 🔮 🔮 a mais no próximo turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pael-s-tooth--ancient--pael",
-    nome: "Pael's Tooth",
+    nome: "Dente de Pael",
     categoria: "Pael",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, remove 5 cards from your Deck. After each combat, randomly add 1 back Upgraded.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, remova 5 cartas do seu Baralho. Depois de cada combate, adiciona 1 de volta ao acaso, Aprimorada.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pael-s-wing--ancient--pael",
-    nome: "Pael's Wing",
+    nome: "Asa de Pael",
     categoria: "Pael",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "You may sacrifice card rewards to Pael. Every 2 sacrifices, obtain a Relic.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Você pode sacrificar recompensas de carta ao Pael. A cada 2 sacrifícios, obtenha uma Relíquia.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "biiig-hug--ancient--tezcatara",
-    nome: "Biiig Hug",
+    nome: "Abraaaço",
     categoria: "Tezcatara",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, remove 4 cards from your Deck. Whenever you shuffle your Draw Pile, add a CardStatus Soot into your Draw Pile.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, remova 4 cartas do seu Baralho. Sempre que você embaralha sua Pilha de Compra, adicione uma carta Soot na sua Pilha de Compra.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "golden-compass--ancient--tezcatara",
-    nome: "Golden Compass",
+    nome: "Bússola Dourada",
     categoria: "Tezcatara",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, replace the Act 2 Map with a single special path.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, substitua o Mapa do Ato 2 por um único caminho especial.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "nutritious-soup--ancient--tezcatara",
-    nome: "Nutritious Soup",
+    nome: "Sopa Nutritiva",
     categoria: "Tezcatara",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Enchant all Strikes in your Deck with Enchant TezcatarasEmber Tezcatara's Ember.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, Encante todos os Strikes no seu Baralho com Enchant TezcatarasEmber Tezcatara's Ember.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pumpkin-candle--ancient--tezcatara",
-    nome: "Pumpkin Candle",
+    nome: "Vela de Abóbora",
     categoria: "Tezcatara",
     icone: "🔮",
-    raridade: "Ancient",
-    efeito: "Gain 🔮 at the start of each turn. Extinguishes after 5 combats. Can be Kindled at Rest Sites.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ganhe 🔮 no início de cada turno. Apaga depois de 5 combates. Pode ser Reacesa nos Locais de Descanso.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "seal-of--ancient--tezcatara",
-    nome: "Seal of 🪙",
+    nome: "Selo de 🪙",
     categoria: "Tezcatara",
     icone: "🪙",
-    raridade: "Ancient",
-    efeito: "At the start of your turn, spend 3 🪙 🪙 to gain 🔮.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "No início do seu turno, gaste 3 🪙 🪙 para ganhar 🔮.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "storybook--ancient--tezcatara",
-    nome: "Storybook",
+    nome: "Livro de Histórias",
     categoria: "Tezcatara",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, add 1 CardColorless Skill Ancient Brightest Flame to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, adicione 1 CardColorless Skill Ancient Brightest Flame ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "toasty-mittens--ancient--tezcatara",
-    nome: "Toasty Mittens",
+    nome: "Luvas Quentinhas",
     categoria: "Tezcatara",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "At the start of your turn, Exhaust 1 card from your Hand and gain 1 ??? ???",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "No início do seu turno, Exaure 1 carta da sua Mão e ganhe 1 ??? ???",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "toy-box--ancient--tezcatara",
-    nome: "Toy Box",
+    nome: "Caixa de Brinquedos",
     categoria: "Tezcatara",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, obtain 5 Wax Relics. Every 3 combats, your left-most Wax Relic will melt away.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, obtenha 5 Relíquias de Cera. A cada 3 combates, sua Relíquia de Cera mais à esquerda derrete.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "very-hot-cocoa--ancient--tezcatara",
-    nome: "Very Hot Cocoa",
+    nome: "Chocolate Quente Bem Quente",
     categoria: "Tezcatara",
     icone: "🔮",
-    raridade: "Ancient",
-    efeito: "Start each combat with an additional 4 🔮.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Comece cada combate com 4 🔮 a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "yummy-cookie--ancient--tezcatara",
-    nome: "Yummy Cookie",
+    nome: "Biscoito Gostoso",
     categoria: "Tezcatara",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Upgrade 4 cards.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, Aprimore 4 cartas.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "beautiful-bracelet--ancient--nonupeipe",
-    nome: "Beautiful Bracelet",
+    nome: "Pulseira Bonita",
     categoria: "Nonupeipe",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Enchant 4 random cards in your Deck with Enchant Swift Swift 2.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, Encante 4 cartas aleatórias no seu Baralho com Enchant Swift Swift 2.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "blessed-antler--ancient--nonupeipe",
-    nome: "Blessed Antler",
+    nome: "Chifre Abençoado",
     categoria: "Nonupeipe",
     icone: "🔮",
-    raridade: "Ancient",
-    efeito: "Gain 🔮 at the start of each turn. At the start of each combat, shuffle 3 CardStatus Dazed into your Draw Pile.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ganhe 🔮 no início de cada turno. No início de cada combate, embaralhe 3 cartas Atordoado na sua Pilha de Compra.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "brilliant-scarf--ancient--nonupeipe",
-    nome: "Brilliant Scarf",
+    nome: "Cachecol Brilhante",
     categoria: "Nonupeipe",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "The 5th card you play from your hand each turn is free.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "A 5ª carta que você joga da mão a cada turno é de graça.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "delicate-frond--ancient--nonupeipe",
-    nome: "Delicate Frond",
+    nome: "Fronde Delicada",
     categoria: "Nonupeipe",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "At the start of each combat, fill all empty Potion slots with random Potions.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "No início de cada combate, encha todos os espaços de poção vazios com Poções aleatórias.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "diamond-diadem--ancient--nonupeipe",
-    nome: "Diamond Diadem",
+    nome: "Diadema de Diamante",
     categoria: "Nonupeipe",
     icone: "🛡️",
-    raridade: "Ancient",
-    efeito: "Start combat with 20 🛡️ Block. Your 🛡️ Block is not removed at the start of your 2nd turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Comece o combate com 20 de 🛡️ Bloqueio. Seu 🛡️ Bloqueio não é removido no início do seu 2º turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "fur-coat--ancient--nonupeipe",
-    nome: "Fur Coat",
+    nome: "Casaco de Pele",
     categoria: "Nonupeipe",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, mark 8 random combats. Enemies in those rooms have 1.",
+    raridade: "Antiga",
+    efeito: "Ao pegar, marque 8 combates aleatórios. Inimigos nessas salas têm 1.",
     descricao: ""
   },
   {
     id: "glitter--ancient--nonupeipe",
-    nome: "Glitter",
+    nome: "Purpurina",
     categoria: "Nonupeipe",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Enchant all card rewards with Enchant Glam Glam.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Encante todas as recompensas de carta com Enchant Glam Glam.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "jewelry-box--ancient--nonupeipe",
-    nome: "Jewelry Box",
+    nome: "Caixa de Joias",
     categoria: "Nonupeipe",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, add 1 CardColorless Skill Ancient Apotheosis to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, adicione 1 CardColorless Skill Ancient Apotheosis ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "looming-fruit--ancient--nonupeipe",
-    nome: "Looming Fruit",
+    nome: "Fruto Iminente",
     categoria: "Nonupeipe",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, raise your Max HP by 31.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, aumente sua Vida máxima em 31.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "signet-ring--ancient--nonupeipe",
-    nome: "Signet Ring",
+    nome: "Anel de Sinete",
     categoria: "Nonupeipe",
     icone: "🪙",
-    raridade: "Ancient",
-    efeito: "Upon pickup, gain 888 🪙 🪙.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, ganhe 888 🪙 🪙.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "claws--ancient--tanx",
-    nome: "Claws",
+    nome: "Garras",
     categoria: "Tanx",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Transform up to 6 cards into CardColorless Attack Ancient Maul.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, Transforme até 6 cartas em CardColorless Attack Ancient Maul.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "crossbow--ancient--tanx",
-    nome: "Crossbow",
+    nome: "Besta",
     categoria: "Tanx",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "At the start of your turn, add a random Attack into your Hand. It's free to play this turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "No início do seu turno, adicione um Ataque aleatório à sua Mão. É de graça para jogá-lo neste turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "iron-club--ancient--tanx",
-    nome: "Iron Club",
+    nome: "Clava de Ferro",
     categoria: "Tanx",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Every 4 cards you play, draw 1 card.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "A cada 4 cartas que você joga, compre 1 carta.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "meat-cleaver--ancient--tanx",
-    nome: "Meat Cleaver",
+    nome: "Cutelo",
     categoria: "Tanx",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "You may Cook at Rest Sites.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Você pode Cozinhar nos Locais de Descanso.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "sai--ancient--tanx",
     nome: "Sai",
     categoria: "Tanx",
     icone: "🛡️",
-    raridade: "Ancient",
-    efeito: "At the start of your turn, gain 7 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "No início do seu turno, ganhe 7 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "spiked-gauntlets--ancient--tanx",
-    nome: "Spiked Gauntlets",
+    nome: "Manoplas com Espinhos",
     categoria: "Tanx",
     icone: "🔮",
-    raridade: "Ancient",
-    efeito: "Gain 🔮 at the start of each turn. Powers cost 1 more 🔮.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ganhe 🔮 no início de cada turno. Poderes custam 1 🔮 a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "tanx-s-whistle--ancient--tanx",
-    nome: "Tanx's Whistle",
+    nome: "Apito de Tanx",
     categoria: "Tanx",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, add 1 CardColorless Attack Ancient Whistle to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, adicione 1 CardColorless Attack Ancient Whistle ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "throwing-axe--ancient--tanx",
-    nome: "Throwing Axe",
+    nome: "Machado de Arremesso",
     categoria: "Tanx",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "The first card you play each combat is played an extra time.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "A primeira carta que você joga em cada combate é jogada uma vez a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "tri-boomerang--ancient--tanx",
-    nome: "Tri-Boomerang",
+    nome: "Tri-Bumerangue",
     categoria: "Tanx",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Choose 3 Attacks in your Deck. Enchant them with Enchant Instinct Instinct.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Escolha 3 Ataques no seu Baralho. Encante-os com Enchant Instinct Instinct.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "war-hammer--ancient--tanx",
-    nome: "War Hammer",
+    nome: "Martelo de Guerra",
     categoria: "Tanx",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Whenever you kill an Elite, Upgrade 4 random cards.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Sempre que você mata um Elite, Aprimore 4 cartas aleatórias.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "blood-soaked-rose--ancient--vakuu",
-    nome: "Blood-Soaked Rose",
+    nome: "Rosa Encharcada de Sangue",
     categoria: "Vakuu",
     icone: "🔮",
-    raridade: "Ancient",
-    efeito: "Upon pickup, add 1 CardCurse Enthralled to your Deck. Gain 🔮 at the start of each turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, adicione 1 Maldição Enthralled ao seu Baralho. Ganhe 🔮 no início de cada turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "choices-paradox--ancient--vakuu",
-    nome: "Choices Paradox",
+    nome: "Paradoxo das Escolhas",
     categoria: "Vakuu",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "At the start of each combat, add 1 of 5 random cards into your Hand. Add Retain to the chosen card.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "No início de cada combate, adicione 1 de 5 cartas aleatórias à sua Mão. Adicione Reter à carta escolhida.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "distinguished-cape--ancient--vakuu",
-    nome: "Distinguished Cape",
+    nome: "Capa Distinta",
     categoria: "Vakuu",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, add 2 random Curses and 3 CardColorless Skill Ancient Apparitions to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, adicione 2 Maldições aleatórias e 3 CardColorless Skill Ancient Apparitions ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "fiddle--ancient--vakuu",
-    nome: "Fiddle",
+    nome: "Rabeca",
     categoria: "Vakuu",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "At the start of each turn, draw 2 additional cards. You may not draw cards during your turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "No início de cada turno, compre 2 cartas a mais. Você não pode comprar cartas durante o seu turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "jeweled-mask--ancient--vakuu",
-    nome: "Jeweled Mask",
+    nome: "Máscara Enjoiada",
     categoria: "Vakuu",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "At the start of each combat put a random Power from your Draw Pile into your Hand. It's free to play this combat.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "No início de cada combate, coloque um Poder aleatório da sua Pilha de Compra na sua Mão. É de graça para jogá-lo neste combate.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "lord-s-parasol--ancient--vakuu",
-    nome: "Lord's Parasol",
+    nome: "Sombrinha do Lorde",
     categoria: "Vakuu",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "When you encounter the Merchant, immediately obtain EVERYTHING he sells.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Quando você encontra o Mercador, obtém na hora TUDO que ele vende.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "music-box--ancient--vakuu",
-    nome: "Music Box",
+    nome: "Caixa de Música",
     categoria: "Vakuu",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Create an Ethereal copy of the first Attack you play each turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Crie uma cópia Etérea do primeiro Ataque que você joga a cada turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "preserved-fog--ancient--vakuu",
-    nome: "Preserved Fog",
+    nome: "Névoa Preservada",
     categoria: "Vakuu",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, remove 3 cards from your Deck. Add CardCurse Folly to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, remova 3 cartas do seu Baralho. Adicione a Maldição Folly ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "sere-talon--ancient--vakuu",
-    nome: "Sere Talon",
+    nome: "Garra Ressequida",
     categoria: "Vakuu",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, lose 9 Max HP. Add 3 CardColorless Skill Ancient Wishes to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, perca 9 de Vida máxima. Adicione 3 CardColorless Skill Ancient Wishes ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "whispering-earring--ancient--vakuu",
-    nome: "Whispering Earring",
+    nome: "Brinco Sussurrante",
     categoria: "Vakuu",
     icone: "🔮",
-    raridade: "Ancient",
-    efeito: "Gain 🔮 at the start of each turn. Vakuu plays your first turn for you.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ganhe 🔮 no início de cada turno. O Vakuu joga o seu primeiro turno por você.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "astrolabe--ancient--darv",
-    nome: "Astrolabe",
+    nome: "Astrolábio",
     categoria: "Darv",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, Transform 3 cards, then Upgrade them.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, Transforme 3 cartas e depois Aprimore-as.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "black-star--ancient--darv",
-    nome: "Black Star",
+    nome: "Estrela Negra",
     categoria: "Darv",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Elites drop an additional Relic when defeated.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Elites soltam uma Relíquia a mais ao serem derrotados.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "calling-bell--ancient--darv",
-    nome: "Calling Bell",
+    nome: "Sino de Chamado",
     categoria: "Darv",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, obtain a unique CardCurse Curse and 3 Relics.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, obtenha uma Maldição única e 3 Relíquias.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "dusty-tome--ancient--darv",
-    nome: "Dusty Tome",
+    nome: "Tomo Empoeirado",
     categoria: "Darv",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, obtain an Ancient Card.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, obtenha uma Carta Antiga.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "ectoplasm--ancient--darv",
-    nome: "Ectoplasm",
+    nome: "Ectoplasma",
     categoria: "Darv",
     icone: "🪙",
-    raridade: "Ancient",
-    efeito: "You can no longer gain 🪙 🪙. Gain 🔮 at the start of each turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Você não pode mais ganhar 🪙 🪙. Ganhe 🔮 no início de cada turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "empty-cage--ancient--darv",
-    nome: "Empty Cage",
+    nome: "Gaiola Vazia",
     categoria: "Darv",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Upon pickup, remove 2 cards from your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ao pegar, remova 2 cartas do seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pandora-s-box--ancient--darv",
-    nome: "Pandora's Box",
+    nome: "Caixa de Pandora",
     categoria: "Darv",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "Transform ALL Strikes and Defends.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Transforme TODOS os Strikes e Defends.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "philosopher-s-stone--ancient--darv",
-    nome: "Philosopher's Stone",
+    nome: "Pedra Filosofal",
     categoria: "Darv",
     icone: "🔮",
-    raridade: "Ancient",
-    efeito: "Gain 🔮 at the start of each turn. ALL enemies start combat with 1 ??? ???",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ganhe 🔮 no início de cada turno. TODOS os inimigos começam o combate com 1 ??? ???",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "runic-pyramid--ancient--darv",
-    nome: "Runic Pyramid",
+    nome: "Pirâmide Rúnica",
     categoria: "Darv",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "At the end of your turn, you no longer discard your Hand.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "No fim do seu turno, você não descarta mais a sua Mão.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "snecko-eye--ancient--darv",
-    nome: "Snecko Eye",
+    nome: "Olho de Snecko",
     categoria: "Darv",
     icone: "💎",
-    raridade: "Ancient",
-    efeito: "At the start of your turn, draw 2 additional cards. Start each combat ?? ??",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "No início do seu turno, compre 2 cartas a mais. Comece cada combate ?? ??",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "sozu--ancient--darv",
     nome: "Sozu",
     categoria: "Darv",
     icone: "🔮",
-    raridade: "Ancient",
-    efeito: "Gain 🔮 at the start of each turn. You can no longer obtain Potions.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ganhe 🔮 no início de cada turno. Você não pode mais obter Poções.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "velvet-choker--ancient--darv",
-    nome: "Velvet Choker",
+    nome: "Gargantilha de Veludo",
     categoria: "Darv",
     icone: "🔮",
-    raridade: "Ancient",
-    efeito: "Gain 🔮 at the start of each turn. You cannot play more than 6 cards per turn.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Antiga",
+    efeito: "Ganhe 🔮 no início de cada turno. Você não pode jogar mais de 6 cartas por turno.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "belt-buckle--shop--any",
-    nome: "Belt Buckle",
+    nome: "Fivela de Cinto",
     categoria: "Qualquer",
     icone: "🎯",
-    raridade: "Shop",
-    efeito: "While you have no Potions, you have 2 additional 🎯 🎯.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Enquanto você não tiver Poções, você tem 2 🎯 🎯 a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "bread--shop--any",
-    nome: "Bread",
+    nome: "Pão",
     categoria: "Qualquer",
     icone: "🔮",
-    raridade: "Shop",
-    efeito: "At the start of your first turn, lose 🔮 🔮. At the start of all other turns, gain 🔮.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "No início do seu primeiro turno, perca 🔮 🔮. No início de todos os outros turnos, ganhe 🔮.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "burning-sticks--shop--any",
-    nome: "Burning Sticks",
+    nome: "Gravetos em Chamas",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "The first time each combat you Exhaust a Skill, add a copy of it into your Hand.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Na primeira vez em cada combate que você Exaure uma Habilidade, adicione uma cópia dela à sua Mão.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "cauldron--shop--any",
-    nome: "Cauldron",
+    nome: "Caldeirão",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Upon pickup, brews 5 random Potion.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Ao pegar, prepara 5 Poções aleatórias.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "chemical-x--shop--any",
-    nome: "Chemical X",
+    nome: "Químico X",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "The effects of your cost X cards are increased by 2. WARNING: Do not combine with sugar, spice, and everything nice.",
+    raridade: "Loja",
+    efeito: "Os efeitos das suas cartas de custo X aumentam em 2. AVISO: não combine com açúcar, tempero e tudo o que há de bom.",
     descricao: ""
   },
   {
     id: "dingy-rug--shop--any",
-    nome: "Dingy Rug",
+    nome: "Tapete Encardido",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Card rewards can now contain Colorless cards.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "As recompensas de carta agora podem conter cartas Incolores.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "dolly-s-mirror--shop--any",
-    nome: "Dolly's Mirror",
+    nome: "Espelho da Dolly",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Upon pickup, obtain an additional copy of a card in your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Ao pegar, obtenha uma cópia extra de uma carta do seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "dragon-fruit--shop--any",
-    nome: "Dragon Fruit",
+    nome: "Pitaya",
     categoria: "Qualquer",
     icone: "🪙",
-    raridade: "Shop",
-    efeito: "Whenever you gain 🪙 🪙, raise your Max HP by 1.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Sempre que você ganha 🪙 🪙, aumente sua Vida máxima em 1.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "ghost-seed--shop--any",
-    nome: "Ghost Seed",
+    nome: "Semente Fantasma",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Strikes and Defends gain Ethereal.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Strikes e Defends ganham Etéreo.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "gnarled-hammer--shop--any",
-    nome: "Gnarled Hammer",
+    nome: "Martelo Retorcido",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Upon pickup, Enchant up to 3 Attacks with Enchant Sharp Sharp 3.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Ao pegar, Encante até 3 Ataques com Enchant Sharp Sharp 3.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "kifuda--shop--any",
     nome: "Kifuda",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Upon pickup, Enchant up to 3 cards with Enchant Adroit Adroit.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Ao pegar, Encante até 3 cartas com Enchant Adroit Adroit.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "lava-lamp--shop--any",
-    nome: "Lava Lamp",
+    nome: "Luminária de Lava",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "At the end of combat, Upgrade all card rewards if you took no damage.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "No fim do combate, Aprimore todas as recompensas de carta se você não sofreu dano.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "lee-s-waffle--shop--any",
-    nome: "Lee's Waffle",
+    nome: "Waffle do Lee",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Upon pickup, raise your Max HP by 7 and heal all of your.",
+    raridade: "Loja",
+    efeito: "Ao pegar, aumente sua Vida máxima em 7 e cure toda a sua Vida.",
     descricao: ""
   },
   {
     id: "membership-card--shop--any",
-    nome: "Membership Card",
+    nome: "Cartão de Sócio",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "50% discount on all products!",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "50% de desconto em todos os produtos!",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "miniature-tent--shop--any",
-    nome: "Miniature Tent",
+    nome: "Barraca em Miniatura",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "You may choose any number of options at Rest Sites.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Você pode escolher quantas opções quiser nos Locais de Descanso.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "mystic-lighter--shop--any",
-    nome: "Mystic Lighter",
+    nome: "Isqueiro Místico",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Enchanted Attacks deal 9 additional damage.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Ataques Encantados causam 9 de dano a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "orrery--shop--any",
-    nome: "Orrery",
+    nome: "Planetário Mecânico",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Upon pickup, gain 5 card rewards.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Ao pegar, ganhe 5 recompensas de carta.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "punch-dagger--shop--any",
-    nome: "Punch Dagger",
+    nome: "Adaga de Soco",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Upon pickup, Enchant an Attack with Enchant Momentum Momentum 5.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Ao pegar, Encante um Ataque com Enchant Momentum Momentum 5.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "ringing-triangle--shop--any",
-    nome: "Ringing Triangle",
+    nome: "Triângulo Tilintante",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Retain your Hand on the first turn of combat.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Retenha sua Mão no primeiro turno do combate.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "royal-stamp--shop--any",
-    nome: "Royal Stamp",
+    nome: "Selo Real",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Upon pickup, choose an Attack or Skill in your Deck to Enchant with Enchant RoyallyApproved Royally Approved.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Ao pegar, escolha um Ataque ou Habilidade do seu Baralho para Encantar com Enchant RoyallyApproved Royally Approved.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "screaming-flagon--shop--any",
-    nome: "Screaming Flagon",
+    nome: "Caneca Gritante",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "If you end your turn with no cards in your Hand, deal 20 damage to ALL enemies.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Se você terminar o turno sem cartas na Mão, cause 20 de dano a TODOS os inimigos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "sling-of-courage--shop--any",
-    nome: "Sling of Courage",
+    nome: "Funda da Coragem",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Start each Elite combat with 2 ??? ???",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Comece cada combate de Elite com 2 ??? ???",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "the-abacus--shop--any",
-    nome: "The Abacus",
+    nome: "O Ábaco",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Shop",
-    efeito: "Whenever you shuffle your Draw Pile, gain 6 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Sempre que você embaralha sua Pilha de Compra, ganhe 6 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "toolbox--shop--any",
-    nome: "Toolbox",
+    nome: "Caixa de Ferramentas",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "At the start of each combat, choose 1 of 3 random Colorless cards and add the chosen card into your Hand.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "No início de cada combate, escolha 1 de 3 cartas Incolores aleatórias e adicione a carta escolhida à sua Mão.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "wing-charm--shop--any",
-    nome: "Wing Charm",
+    nome: "Amuleto de Asa",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "A random card in each card reward is Enchanted with Enchant Swift Swift 1.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Uma carta aleatória em cada recompensa de carta é Encantada com Enchant Swift Swift 1.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "brimstone--shop--ironclad",
-    nome: "Brimstone",
+    nome: "Enxofre",
     categoria: "Ironclad",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "At the start of your turn, gain 2 ??? ??? and ALL enemies gain 1 ??? ???",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "No início do seu turno, ganhe 2 ??? ??? e TODOS os inimigos ganham 1 ??? ???",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "ninja-scroll--shop--silent",
-    nome: "Ninja Scroll",
+    nome: "Pergaminho Ninja",
     categoria: "Silent",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "At the start of each combat, add 3 CardColorless Attack Token Shivs into your Hand.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "No início de cada combate, adicione 3 CardColorless Attack Token Shivs à sua Mão.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "vitruvian-minion--shop--regent",
-    nome: "Vitruvian Minion",
+    nome: "Lacaio Vitruviano",
     categoria: "Regent",
     icone: "🛡️",
-    raridade: "Shop",
-    efeito: "Cards containing \"Minion\" deal double damage and gain double 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Cartas que contêm \"Minion\" causam dano dobrado e ganham 🛡️ Bloqueio dobrado.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "undying-sigil--shop--necrobinder",
-    nome: "Undying Sigil",
+    nome: "Sigilo Imorredouro",
     categoria: "Necrobinder",
     icone: "🪦",
-    raridade: "Shop",
-    efeito: "Enemies with at least as much 🪦 🪦 as HP deal 50% less damage.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Inimigos com pelo menos tanto 🪦 🪦 quanto Vida causam 50% menos dano.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "runic-capacitor--shop--defect",
-    nome: "Runic Capacitor",
+    nome: "Capacitor Rúnico",
     categoria: "Defect",
     icone: "💎",
-    raridade: "Shop",
-    efeito: "Start each combat with 3 additional Orb Slots.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Loja",
+    efeito: "Comece cada combate com 3 espaços de Orbe a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "anchor--event--any",
-    nome: "Anchor",
+    nome: "Âncora",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Event",
-    efeito: "Start each combat with 4 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Comece cada combate com 4 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "big-mushroom--event--any",
-    nome: "Big Mushroom",
+    nome: "Cogumelo Grande",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Upon pickup, raise your Max HP by 20. At the start of each combat, draw 2 fewer cards.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Ao pegar, aumente sua Vida máxima em 20. No início de cada combate, compre 2 cartas a menos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "bing-bong--event--any",
     nome: "Bing Bong",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Whenever you add a card to your Deck, add one additional copy.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Sempre que você adiciona uma carta ao Baralho, adicione uma cópia a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "blood-vial--event--any",
-    nome: "Blood Vial",
+    nome: "Frasco de Sangue",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "At the start of each combat, heal 1.",
+    raridade: "Evento",
+    efeito: "No início de cada combate, cure 1.",
     descricao: ""
   },
   {
     id: "bone-tea--event--any",
-    nome: "Bone Tea",
+    nome: "Chá de Osso",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "At the start of the next combat, Upgrade your starting hand.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "No início do próximo combate, Aprimore sua mão inicial.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "byrdpip--event--any",
     nome: "Byrdpip",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Upon pickup, gain the card CardColorless Attack Event Byrd Swoop. A Byrdpip will accompany you in battles.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Ao pegar, ganhe a carta CardColorless Attack Event Byrd Swoop. Um Byrdpip vai te acompanhar nas batalhas.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "darkstone-periapt--event--any",
-    nome: "Darkstone Periapt",
+    nome: "Amuleto de Pedra Negra",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Whenever you obtain a Curse, raise your Max HP by 6.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Sempre que você obtém uma Maldição, aumente sua Vida máxima em 6.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "daughter-of-the-wind--event--any",
-    nome: "Daughter of the Wind",
+    nome: "Filha do Vento",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Event",
-    efeito: "Whenever you play an Attack, gain 1 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Sempre que você joga um Ataque, ganhe 1 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "dream-catcher--event--any",
-    nome: "Dream Catcher",
+    nome: "Filtro dos Sonhos",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Whenever you Rest, you may add a card to your Deck.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Sempre que você Descansa, você pode adicionar uma carta ao seu Baralho.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "ember-tea--event--any",
-    nome: "Ember Tea",
+    nome: "Chá de Brasa",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "At the start of the next 5 combats, gain 2 ??? ???",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "No início dos próximos 5 combates, ganhe 2 ??? ???",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "forgotten--event--any",
-    nome: "Forgotten 👻",
+    nome: "Esquecido 👻",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Whenever you Exhaust a card, deal 1 damage to a random enemy.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Sempre que você Exaure uma carta, cause 1 de dano a um inimigo aleatório.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "fragrant-mushroom--event--any",
-    nome: "Fragrant Mushroom",
+    nome: "Cogumelo Perfumado",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Upon pickup, lose 15 HP and Upgrade 2 random cards.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Ao pegar, perca 15 de Vida e Aprimore 2 cartas aleatórias.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "fresnel-lens--event--any",
-    nome: "Fresnel Lens",
+    nome: "Lente de Fresnel",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Event",
-    efeito: "Whenever you add a card that gains 🛡️ Block to your Deck, Enchant it with Enchant Nimble Nimble 2.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Sempre que você adiciona ao Baralho uma carta que dá 🛡️ Bloqueio, Encante-a com Enchant Nimble Nimble 2.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "hand-drill--event--any",
-    nome: "Hand Drill",
+    nome: "Furadeira Manual",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Event",
-    efeito: "Whenever you break an enemy's 🛡️ Block, apply 2 💔 💔.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Sempre que você quebra o 🛡️ Bloqueio de um inimigo, aplique 2 💔 💔.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "happy-flower--event--any",
-    nome: "Happy Flower",
+    nome: "Flor Feliz",
     categoria: "Qualquer",
     icone: "🔮",
-    raridade: "Event",
-    efeito: "Every 5 turns, gain 🔮.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "A cada 5 turnos, ganhe 🔮.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "history-course--event--any",
-    nome: "History Course",
+    nome: "Curso de História",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "At the start of your turn, play a copy of your last played Attack.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "No início do seu turno, joga uma cópia do último Ataque que você jogou.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "lee-s-waffle--event--any",
-    nome: "Lee's Waffle",
+    nome: "Waffle do Lee",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Upon pickup, heal 10% of your.",
+    raridade: "Evento",
+    efeito: "Ao pegar, cure 10% da sua Vida.",
     descricao: ""
   },
   {
     id: "lost-wisp--event--any",
-    nome: "Lost Wisp",
+    nome: "Fátuo Perdido",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Whenever you play a Power, deal 8 damage to ALL enemies.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Sempre que você joga um Poder, cause 8 de dano a TODOS os inimigos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "mango--event--any",
-    nome: "Mango",
+    nome: "Manga",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Upon pickup, raise your Max HP by 3.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Ao pegar, aumente sua Vida máxima em 3.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "maw-bank--event--any",
-    nome: "Maw Bank",
+    nome: "Cofrinho Bocarra",
     categoria: "Qualquer",
     icone: "🪙",
-    raridade: "Event",
-    efeito: "Whenever you climb a floor, gain 12 🪙 🪙. No longer works when you spend any 🪙 🪙 at the shop.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Sempre que você sobe um andar, ganhe 12 🪙 🪙. Deixa de funcionar quando você gasta qualquer 🪙 🪙 na loja.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "mr-struggles--event--any",
-    nome: "Mr. Struggles",
+    nome: "Sr. Dificuldades",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "At the start of your turn, deal damage equal to the turn number to ALL enemies.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "No início do seu turno, cause dano igual ao número do turno a TODOS os inimigos.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "orichalcum--event--any",
-    nome: "Orichalcum",
+    nome: "Oricalco",
     categoria: "Qualquer",
     icone: "🛡️",
-    raridade: "Event",
-    efeito: "If you end your turn without 🛡️ Block, gain 3 🛡️ Block.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Se você terminar o turno sem 🛡️ Bloqueio, ganhe 3 de 🛡️ Bloqueio.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "pollinous-core--event--any",
-    nome: "Pollinous Core",
+    nome: "Núcleo Polinoso",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Every 4 turns, draw 2 additional cards.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "A cada 4 turnos, compre 2 cartas a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "royal--event--any",
-    nome: "Royal 🧪",
+    nome: "🧪 Real",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "At the start of each combat, lose 4.",
+    raridade: "Evento",
+    efeito: "No início de cada combate, perca 4.",
     descricao: ""
   },
   {
     id: "snecko-eye--event--any",
-    nome: "Snecko Eye",
+    nome: "Olho de Snecko",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Start each combat ?? ??",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Comece cada combate ?? ??",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "strike-dummy--event--any",
-    nome: "Strike Dummy",
+    nome: "Boneco de Treino",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Cards containing “Strike” deal 1 additional damage.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Cartas que contêm “Strike” causam 1 de dano a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "sword-of-jade--event--any",
-    nome: "Sword of Jade",
+    nome: "Espada de Jade",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Start each combat with 3 ??? ???",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Comece cada combate com 3 ??? ???",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "sword-of-stone--event--any",
-    nome: "Sword of Stone",
+    nome: "Espada de Pedra",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Transforms into a powerful Relic after defeating 5 Elites.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Transforma-se numa Relíquia poderosa depois de derrotar 5 Elites.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "tea-of-discourtesy--event--any",
-    nome: "Tea of Discourtesy",
+    nome: "Chá da Descortesia",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "At the start of the next combat, shuffle 2 CardStatus Dazed into your Draw Pile.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "No início do próximo combate, embaralhe 2 cartas Atordoado na sua Pilha de Compra.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "the-boot--event--any",
-    nome: "The Boot",
+    nome: "A Bota",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Whenever you would deal 4 or less unblocked attack damage, increase it to 5.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Sempre que você fosse causar 4 ou menos de dano de ataque não bloqueado, aumente para 5.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "the-chosen-cheese--event--any",
-    nome: "The Chosen Cheese",
+    nome: "O Queijo Escolhido",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "At the end of combat, gain 1 Max.",
+    raridade: "Evento",
+    efeito: "No fim do combate, ganhe 1 de Vida máxima.",
     descricao: ""
   },
   {
     id: "the-merchant-s-rug--event--any",
-    nome: "The Merchant's Rug",
+    nome: "O Tapete do Mercador",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Poor imitation. Does nothing.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Imitação barata. Não faz nada.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "venerable-tea-set--event--any",
-    nome: "Venerable Tea Set",
+    nome: "Jogo de Chá Venerável",
     categoria: "Qualquer",
     icone: "🔮",
-    raridade: "Event",
-    efeito: "Whenever you enter a Rest Site, start the next combat with an additional 🔮.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Sempre que você entra num Local de Descanso, comece o próximo combate com 🔮 a mais.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "wongo-customer-appreciation-badge--event--any",
-    nome: "Wongo Customer Appreciation Badge",
+    nome: "Broche de Gratidão ao Cliente Wongo",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Does nothing.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Não faz nada.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "wongo-s-mystery-ticket--event--any",
-    nome: "Wongo's Mystery Ticket",
+    nome: "Bilhete Misterioso do Wongo",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Event",
-    efeito: "Receive 3 random Relics after 5 combats.",
-    descricao: "Details for this relic will be revealed in the future..."
+    raridade: "Evento",
+    efeito: "Receba 3 Relíquias aleatórias depois de 5 combates.",
+    descricao: "Os detalhes desta relíquia serão revelados no futuro..."
   },
   {
     id: "circlet--special--any",
-    nome: "Circlet",
+    nome: "Diadema",
     categoria: "Qualquer",
     icone: "💎",
-    raridade: "Special",
-    efeito: "It's a circlet. A curious relic which appears when there's a problem within the Spire or there are no more relics to discover.",
+    raridade: "Especial",
+    efeito: "É um diadema. Uma relíquia curiosa que aparece quando há um problema na Torre ou quando não há mais relíquias para descobrir.",
     descricao: ""
   },
 ];
