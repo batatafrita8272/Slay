@@ -3535,5 +3535,184 @@ const LEGENDA = [
   { emoji: "🤕", nome: "Injury" },
 ];
 
+/* ---------------------------------------------------------------------------
+ *  ANCIÕES
+ *  Encontros que concedem relíquias (não são combates). O campo `categoria`
+ *  liga o Ancião às relíquias de raridade "Antiga" que ele oferece.
+ * ------------------------------------------------------------------------- */
+
+const ANCIOES = [
+  {
+    id: "neow",
+    nome: "Neow",
+    categoria: "Neow",
+    icone: "🌟",
+    local: "Ato 1 — Matagal / Docas Submersas",
+    descricao: "A \"Mãe da Ressurreição\". Não é um combate: ao iniciar uma nova jornada (depois da primeira), Neow oferece 3 relíquias — 1 do Pool de Maldição e 2 do Pool Positivo — para você escolher uma. Fala em frases fragmentadas que sugerem ter refeito ou ressuscitado o personagem, com diálogo próprio para cada protagonista.",
+    pools: [
+      {
+        titulo: "Pool de Maldição — 1 oferecida",
+        nota: "Relíquias com desvantagem. Uma é sorteada primeiro; ela e mais 2 do Pool Positivo são oferecidas.",
+        relics: ["Pérola Amaldiçoada", "Vara", "Tábua Pesada", "Cápsula Grande", "Cataplasma de Folhas", "Ossos de Neow", "Sacrifício de Neow", "Tesoura Precária", "Mecha de Seda", "Cadinho de Prata"],
+      },
+      {
+        titulo: "Pool Positivo — 2 oferecidas",
+        nota: "As 6 primeiras são fixas; as demais só entram se a maldição correspondente NÃO foi sorteada (ou dependem de modo de jogo).",
+        relics: ["Concha Estrondosa", "Vara de Pesca", "Caleidoscópio", "Peso de Papel de Chumbo", "Tormento de Neow", "Caixas de Pergaminhos", "Pérola Dourada", "Pergaminho Arcano", "Folha Nova", "Tesoura Precisa", "Coldre de Frascos", "Cofre Perdido", "Rocha de Lava", "Cápsula Pequena", "Ostra Nutritiva", "Umidificador de Pedra", "Talismã de Neow", "Pomo Aromático", "Pergaminho Enorme", "Botas Aladas"],
+      },
+    ],
+  },
+  {
+    id: "orobas",
+    nome: "Orobas",
+    categoria: "Orobas",
+    icone: "🐴",
+    local: "Ato 2 — Colmeia",
+    descricao: "Ancião nomeado a partir de um demônio do grimório Ars Goetia, tradicionalmente retratado como sincero e confiável — o que combina com seu jeito prestativo e esquisito. Diz \"Puppet puppet!! Lá em cima?! Peguem isto, peguem peguem!\" e oferece 1 relíquia de cada um de 3 pools. Desbloqueio: completar o evento Orobas – Capítulo 2 (jogar uma jornada com cada personagem).",
+    pools: [
+      {
+        titulo: "Pool 1 — 1 oferecida",
+        nota: "Chances: 33,3% / 33,3% / 22,2% / 11,1%.",
+        relics: ["Camarão Elétrico", "Olho de Vidro", "Vidro do Mar", "Gema Prismática"],
+      },
+      {
+        titulo: "Pool 2 — 1 oferecida",
+        nota: "25% cada.",
+        relics: ["Cofre Alquímico", "Madeira à Deriva", "Pérola Radiante", "Castelo de Areia"],
+      },
+      {
+        titulo: "Pool 3 — 1 oferecida",
+        nota: "50% cada.",
+        relics: ["Dente Arcaico", "Toque de Orobas"],
+      },
+    ],
+  },
+  {
+    id: "pael",
+    nome: "Pael",
+    categoria: "Pael",
+    icone: "🌙",
+    local: "Ato 2 — Colmeia",
+    descricao: "Ancião sonolento e meditativo. \"Uma marionete chegou?\" Fala com temas de paz contra conflito e pede para você \"checar o Pai\". Oferece 1 relíquia de cada um de 3 pools; algumas são condicionais.",
+    pools: [
+      {
+        titulo: "Pool 1 — 1 oferecida",
+        nota: "33,3% cada.",
+        relics: ["Carne de Pael", "Chifre de Pael", "Lágrimas de Pael"],
+      },
+      {
+        titulo: "Pool 2 — 1 oferecida",
+        nota: "Depende do baralho: Garra de Pael exige 3+ Defends encantáveis; Dente de Pael exige 5+ cartas removíveis; Crescimento de Pael tem metade da chance quando tudo está disponível.",
+        relics: ["Asa de Pael", "Garra de Pael", "Dente de Pael", "Crescimento de Pael"],
+      },
+      {
+        titulo: "Pool 3 — 1 oferecida",
+        nota: "Legião de Pael fica indisponível se você já tiver um bicho de estimação (Byrdpip / Ovo de Byrdonis); nesse caso Sangue e Olho ficam com 50% cada.",
+        relics: ["Sangue de Pael", "Olho de Pael", "Legião de Pael"],
+      },
+    ],
+  },
+  {
+    id: "tezcatara",
+    nome: "Tezcatara",
+    categoria: "Tezcatara",
+    icone: "🔥",
+    local: "Ato 2 — Colmeia",
+    descricao: "Ancião hospitaleiro e acolhedor, com mecânicas e falas temáticas de fogo — oferece \"guloseimas\" e fala em \"queimar seus defeitos\". Dá 1 relíquia de cada um de 3 pools. O diálogo varia por personagem. (Conteúdo beta.)",
+    pools: [
+      {
+        titulo: "Pool 1 — 1 oferecida",
+        nota: "33,3% cada.",
+        relics: ["Sopa Nutritiva", "Chocolate Quente Bem Quente", "Biscoito Gostoso"],
+      },
+      {
+        titulo: "Pool 2 — 1 oferecida",
+        nota: "33,3% cada.",
+        relics: ["Abraaaço", "Livro de Histórias", "Luvas Quentinhas"],
+      },
+      {
+        titulo: "Pool 3 — 1 oferecida",
+        nota: "25% cada.",
+        relics: ["Bússola Dourada", "Vela de Abóbora", "Caixa de Brinquedos", "Selo de 🪙"],
+      },
+    ],
+  },
+  {
+    id: "nonupeipe",
+    nome: "Nonupeipe",
+    categoria: "Nonupeipe",
+    icone: "💍",
+    local: "Ato 3 — Glória",
+    descricao: "Ancião vaidoso e acolhedor: \"Não recebo visita há um milênio! Você está bem sem graça, vem, vamos achar algo encantador pra você usar.\" Oferece 3 relíquias sorteadas de um pool. Tem diálogo próprio para cada personagem.",
+    pools: [
+      {
+        titulo: "Pool — 3 sorteadas",
+        nota: "9 relíquias fixas (33,3% cada). Pulseira Bonita só entra se você tiver 4+ cartas encantáveis com Swift — nesse caso todas ficam com 30%.",
+        relics: ["Chifre Abençoado", "Cachecol Brilhante", "Fronde Delicada", "Diadema de Diamante", "Casaco de Pele", "Purpurina", "Caixa de Joias", "Fruto Iminente", "Anel de Sinete", "Pulseira Bonita"],
+      },
+    ],
+  },
+  {
+    id: "tanx",
+    nome: "Tanx",
+    categoria: "Tanx",
+    icone: "🦁",
+    local: "Ato 3 — Glória",
+    descricao: "O \"Rei Khimera\", inspirado na Quimera da mitologia grega, obcecado por armas: \"TÃO FRACO! MAS VOCÊ TEM POTENCIAL! USE ESTA ARMA!!\" Oferece 3 relíquias sorteadas de um pool.",
+    pools: [
+      {
+        titulo: "Pool — 3 sorteadas",
+        nota: "9 relíquias fixas (33,3% cada). Tri-Bumerangue só entra se você tiver 3+ Ataques encantáveis com Instinct — nesse caso todas ficam com 30%.",
+        relics: ["Garras", "Besta", "Clava de Ferro", "Cutelo", "Sai", "Manoplas com Espinhos", "Apito de Tanx", "Machado de Arremesso", "Martelo de Guerra", "Tri-Bumerangue"],
+      },
+    ],
+  },
+  {
+    id: "vakuu",
+    nome: "Vakuu",
+    categoria: "Vakuu",
+    icone: "👹",
+    local: "Ato 3 — Glória",
+    descricao: "Ancião ameaçador: \"Entregue-se a mim e você será temido tanto quanto eu.\" O Ironclad o reconhece como \"DEMÔNIO SAGRADO\" e o Necrobinder cita uma vingança em comum contra o Arquiteto. Oferece 1 relíquia de cada um de 3 pools. (Conteúdo beta.)",
+    pools: [
+      {
+        titulo: "Pool 1 — 1 oferecida",
+        nota: "33,3% cada.",
+        relics: ["Rosa Encharcada de Sangue", "Rabeca", "Brinco Sussurrante"],
+      },
+      {
+        titulo: "Pool 2 — 1 oferecida",
+        nota: "33,3% cada.",
+        relics: ["Capa Distinta", "Névoa Preservada", "Garra Ressequida"],
+      },
+      {
+        titulo: "Pool 3 — 1 oferecida",
+        nota: "25% cada.",
+        relics: ["Paradoxo das Escolhas", "Máscara Enjoiada", "Sombrinha do Lorde", "Caixa de Música"],
+      },
+    ],
+  },
+  {
+    id: "darv",
+    nome: "Darv",
+    categoria: "Darv",
+    icone: "🗃️",
+    local: "Atos 2 e 3 — Colmeia / Glória",
+    descricao: "O único Ancião que aparece em mais de um ato. \"Veio ver minha coleção!? Pega qualquer coisa daquela pilha ali, dá bom uso!\" Distribuição 50/50: metade das vezes dá 3 relíquias do Pool 1; a outra metade dá 2 do Pool 1 mais o Tomo Empoeirado. Desbloqueio: concluir Darv – Capítulo 5 na Linha do Tempo (ter encontrado todos os outros Anciões pelo menos uma vez).",
+    pools: [
+      {
+        titulo: "Pool 1",
+        nota: "Ectoplasma e Sozu só aparecem no Ato 2.",
+        relics: ["Astrolábio", "Estrela Negra", "Sino de Chamado", "Gaiola Vazia", "Pedra Filosofal", "Pirâmide Rúnica", "Olho de Snecko", "Gargantilha de Veludo", "Caixa de Pandora", "Ectoplasma", "Sozu"],
+      },
+      {
+        titulo: "Pool 2",
+        nota: "Concede uma Carta de Poder Antiga da sua classe (Corruption, Wraith Form, The Sealed Throne, Forbidden Grimoire ou Biased Cognition).",
+        relics: ["Tomo Empoeirado"],
+      },
+    ],
+  },
+];
+
 /* Exposição global para o app.js */
-window.COMPENDIO = { MONSTROS, RELIQUIAS, LEGENDA };
+window.COMPENDIO = { MONSTROS, RELIQUIAS, LEGENDA, ANCIOES };

@@ -6,7 +6,7 @@
 (function () {
   "use strict";
 
-  const { MONSTROS, RELIQUIAS, LEGENDA = [] } = window.COMPENDIO;
+  const { MONSTROS, RELIQUIAS, LEGENDA = [], ANCIOES = [] } = window.COMPENDIO;
 
   const RARIDADE_ORDEM = [
     "Inicial", "Comum", "Incomum", "Rara", "Antiga", "Loja", "Evento", "Especial"
@@ -30,12 +30,22 @@
     list: document.getElementById("list"),
     counts: {
       reliquias: document.querySelector('[data-count="reliquias"]'),
-      monstros: document.querySelector('[data-count="monstros"]')
+      monstros: document.querySelector('[data-count="monstros"]'),
+      ancioes: document.querySelector('[data-count="ancioes"]')
     }
   };
 
   els.counts.reliquias.textContent = RELIQUIAS.length;
   els.counts.monstros.textContent = MONSTROS.length;
+  els.counts.ancioes.textContent = ANCIOES.length;
+
+  // Busca rápida de relíquia "Antiga" pelo nome (para os pools dos Anciões)
+  const RELIQUIA_ANTIGA = {};
+  RELIQUIAS.forEach((r) => {
+    if (r.raridade === "Antiga") RELIQUIA_ANTIGA[r.nome] = r;
+  });
+
+  const anciaoDrops = (a) => a.pools.flatMap((p) => p.relics);
 
   /* ---------- Utilidades ---------- */
 
@@ -70,6 +80,16 @@
   /* ---------- Filtragem ---------- */
 
   function itensFiltrados() {
+    if (state.aba === "ancioes") {
+      const q = normaliza(state.busca.trim());
+      if (!q) return ANCIOES;
+      return ANCIOES.filter((a) => {
+        const nomes = anciaoDrops(a);
+        const efeitos = nomes.map((n) => (RELIQUIA_ANTIGA[n] || {}).efeito || "");
+        return normaliza([a.nome, a.local, a.descricao, ...nomes, ...efeitos].join(" ")).includes(q);
+      });
+    }
+
     if (state.aba === "monstros") {
       const q = normaliza(state.busca.trim());
       return MONSTROS.filter((m) => {
@@ -195,6 +215,51 @@
       </article>`;
   }
 
+  function dropRow(nome) {
+    const r = RELIQUIA_ANTIGA[nome];
+    const ico = r ? esc(r.icone) : "💎";
+    const efeito = r ? esc(r.efeito) : "";
+    return `
+      <div class="drop">
+        <span class="drop-ico">${ico}</span>
+        <span class="drop-txt">
+          <b>${esc(nome)}</b>
+          <span>${efeito}</span>
+        </span>
+      </div>`;
+  }
+
+  function fichaAnciao(a) {
+    const aberto = state.abertos.has(a.id);
+    const totalDrops = anciaoDrops(a).length;
+    return `
+      <article class="card ${aberto ? "open" : ""}" data-id="${esc(a.id)}">
+        <button class="card-head" aria-expanded="${aberto}">
+          <span class="icon">${esc(a.icone)}</span>
+          <span class="card-title">
+            <span class="name">${esc(a.nome)}</span>
+            <span class="sub">${esc(a.local)}</span>
+          </span>
+          <span class="card-aside">
+            <span class="badge">${totalDrops} relíquias</span>
+            ${CHEVRON}
+          </span>
+        </button>
+        <div class="card-body"><div><div class="card-body-inner">
+          <div>
+            <div class="section-label">Sobre</div>
+            <p class="desc">${esc(a.descricao)}</p>
+          </div>
+          ${a.pools.map((p) => `
+            <div class="pool">
+              <div class="section-label">${esc(p.titulo)}</div>
+              ${p.nota ? `<p class="pool-nota">${esc(p.nota)}</p>` : ""}
+              <div class="drops">${p.relics.map(dropRow).join("")}</div>
+            </div>`).join("")}
+        </div></div></div>
+      </article>`;
+  }
+
   /* ---------- Guia de símbolos (apenas relíquias) ---------- */
 
   if (LEGENDA.length) {
@@ -227,6 +292,11 @@
   }
 
   function renderFiltros() {
+    if (state.aba === "ancioes") {
+      els.filtros.hidden = true;
+      els.filtros.innerHTML = "";
+      return;
+    }
     els.filtros.hidden = false;
 
     if (state.aba === "monstros") {
@@ -262,26 +332,28 @@
       t.setAttribute("aria-selected", t.dataset.aba === state.aba);
     });
 
-    els.search.placeholder =
-      state.aba === "monstros"
-        ? "Buscar monstro, tipo, habilidade…"
-        : "Buscar relíquia, origem, efeito…";
+    els.search.placeholder = {
+      monstros: "Buscar monstro, tipo, habilidade…",
+      ancioes: "Buscar Ancião, ato, relíquia…",
+      reliquias: "Buscar relíquia, origem, efeito…"
+    }[state.aba];
 
     renderLegenda();
     renderFiltros();
 
     const itens = itensFiltrados();
-    const total = state.aba === "monstros" ? MONSTROS.length : RELIQUIAS.length;
-    els.resumo.textContent = itens.length === total
-      ? `${total} ${state.aba === "monstros" ? "monstros" : "relíquias"}`
-      : `${itens.length} de ${total}`;
+    const fonte = { monstros: MONSTROS, ancioes: ANCIOES, reliquias: RELIQUIAS }[state.aba];
+    const rotulo = { monstros: "monstros", ancioes: "anciões", reliquias: "relíquias" }[state.aba];
+    els.resumo.textContent = itens.length === fonte.length
+      ? `${fonte.length} ${rotulo}`
+      : `${itens.length} de ${fonte.length}`;
 
     if (!itens.length) {
       els.list.innerHTML = `<div class="empty">Nada encontrado com os filtros atuais.</div>`;
       return;
     }
 
-    const tpl = state.aba === "monstros" ? fichaMonstro : fichaReliquia;
+    const tpl = { monstros: fichaMonstro, ancioes: fichaAnciao, reliquias: fichaReliquia }[state.aba];
     els.list.innerHTML = itens.map(tpl).join("");
   }
 
